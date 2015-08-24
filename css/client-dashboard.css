@@ -1,0 +1,96 @@
+
+
+.main-content{
+	margin-top:25px;
+}
+
+.grey-wrapper{
+	background-image:  url('../images/lhs-gradient.png');
+    background-repeat: repeat;
+    border-radius:10px;
+}
+
+.comments{
+	border:thin solid #e8e8e8;
+}
+
+.media-padding{
+	padding:15px;
+}
+.media-padding{
+	padding:15px;
+}
+
+.suggested-doctor-padding{
+	padding:25px 20px;
+}
+
+.thumb-padding{
+	padding-right:15px;
+}
+
+.client-comment-heading{
+	margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.client-comment-text{
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.content-para{
+	font-size: 16px;
+}
+.content-para-padding{
+	padding:15px 0px;
+}
+
+.appointments-padding{
+	padding:10px 20px;
+	border-bottom: thin solid #e3e3e3;
+}
+
+.appointments-background{
+	background-color: #f7f7f7;
+}
+
+.suggested-doctor-img{
+	border:thin solid #858585;
+}
+
+.suggested-doctor-btn{
+	color: #fff;
+    background-color: #ff705b;
+    margin: 25px 0px 0px 0px;
+    border-radius: 5px;
+    padding:5px 23px;
+}
+
+
+
+.media-border{
+
+	border-bottom: 1px solid #ffffff;
+	-moz-box-shadow:   0 0 1px #dbdbdc;
+	-webkit-box-shadow: 0 0 1px #dbdbdc;
+	box-shadow:        0 0 1px #dbdbdc;
+
+}
+
+.doctor-box-alignment{
+	margin: 0px 25px 25px 25px;
+    padding: 25px 0px 25px 0px;
+}
+
+.doctor-box-alignment:first-child{
+    border-bottom: 1px solid #ccc;
+
+}
+
+.doctor-box-alignment:nth-child[2]{
+    padding: 0px 0px 25px 0px;
+    margin: 0px 25px 25px 25px;
+}

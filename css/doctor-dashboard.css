@@ -1,0 +1,272 @@
+.left-panel-one, .left-panel-two{
+	 background-image: url("../images/lhs-gradient.png");
+    background-position: center center;
+    background-repeat: repeat;
+    border-radius:5px;
+    margin-bottom: 20px;
+}
+.doctor-account{
+	padding: 10px;
+}
+.doctor-account img{
+	width:30%;
+}
+.doctor-account label{
+	font-weight: normal;
+	font-size: 18px;
+	padding:0 10px;
+	font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+}
+.acc-setting{
+	font-size:12px;
+	color:#00a1e0;
+}
+.partition{
+	border-top:1px solid #d5d5d6;
+	margin:5px 0;
+}
+h3{
+	font-size: 22px;
+	color:#3c3c3b;
+	font-weight: normal;
+	font-family: "HelveticaNeueLight", Helvetica, Arial, sans-serif;
+}
+.profile-completeness >.graph-img{
+	float:none;
+	margin:0 auto;
+	clear: both;
+	padding: 0;
+}
+.graph-img > img{width:100%;}
+.percentage-section{
+	padding:20px 0;
+}
+.toggle-section{
+	border-radius: 5px;
+	background: #fff;
+	border:1px solid #e5e5e5;
+	margin: 5px 0;
+    padding: 0 8px;
+}
+.toggle-section > label{
+	font-weight: normal;
+}
+.percentage-quote{
+	font-family: arial;
+	font-size: 24px;
+}
+.percentage-detail{
+	font-size: 18px;
+	color:#11b6ef;
+	margin:0 10px;
+}
+.character-limit{
+	color:#8a8a8a;
+	font-size: 12px;
+}
+.collapse{
+	border-top:1px solid #e5e5e5;
+	margin-top:5px;
+}
+.rating-section{
+	border-top:1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	padding:15px;
+}
+.rating-label{
+	font-size: 25px;
+}
+.rating-highlight{
+	color:#6f6f6f;
+	font-size: 16px;
+}
+.rating-section img{
+	margin-top:5px;
+}
+.rating-section > ul > li{
+	list-style-type: none;
+}
+.rating-section span{
+	margin:0;
+	padding:0;
+}
+.statistic-section{
+	padding: 20px 0;
+}
+.statistic-section label:first-child{
+  	color: #6f6f6f;
+	font-size: 17px;
+	padding: 5px;
+	font-family: "HelveticaNeueLight", Helvetica, Arial, sans-serif;
+}
+.statistic-section label:last-child{
+	font-size: 24px;
+}
+.doctor-list{
+	padding: 20px;
+	font-family: "HelveticaNeueLight", Helvetica, Arial, sans-serif;
+	border-bottom: 1px solid #e5e5e5;
+}
+.doctor-list img{
+	border-radius: 50%;
+}
+.doctor-name{
+	color:#c11900;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.doctor-address{
+	font-weight: normal;
+	font-size: 15px;
+	color:#6f6f6f;
+}
+.recommand-btn{
+	margin:20px 0;
+}
+
+
+/*Right Panel CSS*/
+.right-panel{
+	border: 1px solid #eee;
+}
+.right-panel h3{
+	margin:10px;
+	padding:0 0 12px;
+}
+.upcoming-section ul{
+	float: left;
+	padding: 0;
+	background: #f5f5f5;
+	border-radius: 5px;
+}
+.upcoming-section ul li{
+	list-style-type: none;
+}
+.appointed-doctor, .chat-prev{
+	color:#00a1e0;
+	font-size: 15px;
+}
+.upcoming-section ul li > span{
+	padding: 10px 0;
+}
+.upcoming-section, .appointment-section, .new-message-section{
+	padding:15px 0;
+}
+.appointment-section div{
+	padding: 0;
+	border-radius:5px;
+}
+.tab-content{
+	border:1px solid #ddd;
+	border-top: none;
+}
+.tab-pane ul{
+	padding:0 0 10px;
+}
+.tab-pane ul li{
+	list-style-type: none;
+	 padding: 10px 15px;
+}
+.tab-pane ul li:first-child{
+	background: #f5f5f5;
+	color: #000;
+	font-weight: bold;
+	font-size: 14px;
+}
+.tab-pane ul li > span{
+	padding: 0;
+}
+.tab-content > .tab-pane{
+	padding: 10px;
+	border-top:1px solid #ddd;
+}
+.nav-tabs{
+	border-bottom: none;
+}
+.nav-tabs > li{
+	z-index: 1;
+	margin: -1px 5px;
+	font-size: 16px;
+}
+.nav-tabs > li > a{
+	background: #ddd;
+}
+.badge{
+    border-radius: 4px;
+    color: #fff;
+    font-size: 11px;
+    line-height: 11px;
+    padding: 3px 6px;
+    font-weight: normal;
+}
+.active .badge{
+	 background-color: #ff705b;
+	}
+.message{
+border-bottom: 1px solid #ddd	
+}
+.message-section{
+	border:1px solid #ddd;
+}
+.message span{
+	padding: 0;
+	margin:15px 0;
+}
+.message label{
+	display: block;
+	font-weight: normal;
+	padding: 0 15px;
+}
+.message:last-child{
+	border:none;
+}
+.message label:last-child{
+	margin:20px 0 0 0;
+}
+
+@media (max-width: 1100px) {
+.percentage-detail{font-size: 15px;margin:0;}
+.percentage-quote{font-size:22px;}
+.rating-section{padding:15px 0;}
+.rating-label{font-size: 20px;}
+.rating-highlight{font-size: 15px;}
+.statistic-section label:first-child{font-size: 14px;padding: 10px 0;}
+.statistic-section label:last-child{font-size: 21px;padding: 10px 0;}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	.main-content{margin: 0;padding: 0;}
+	.left-panel{margin:0;padding: 0;}
+	.container{width:auto;}	
+	.percentage-quote{font-size: 18px;}
+	.percentage-detail{font-size: 12px;margin:0;}
+	.toggle-section img{width:35%;margin-left:5%;}
+	.rating-section{padding: 15px 0;}
+	.rating-label{font-size: 18px;}{font-size: 21px;padding: 10px 0;}
+	.rating-section div{padding:0;}
+	.statistic-section label:last-child{font-size: 16px;margin: 5px 0px;font-weight: bold;}
+	.right-panel{border:none;}
+}
+
+@media (max-width: 767px) {
+	.container{margin:0;padding: 0;}
+	.left-panel, .right-panel{margin:0;padding: 0;}	
+	.acc-setting{font-size: 15px;padding-bottom: 10px;cursor: pointer;}
+	.doctor-account{padding: 10px 0 0 0;}
+	.percentage-detail{margin: 2px 10px;}
+	.sub-section-two > span{margin-top:8px;}
+	.toggle-section{padding: 10px}
+	.sub-section-two.toggle-section{padding:2px 10px;}
+	.upcoming-section div{padding: 0;}
+	.upcoming-section, .appointment-section, .new-message-section{padding: 0;}
+	.upcoming-section ul li {padding: 20px;}
+	.upcoming-section ul li > span{padding: 0;}
+	.appointment-time{text-align: right;}
+	.right-panel h3{padding:0 0 2px;}
+	.nav-tabs{padding: 0 11px;}
+	.nav-tabs > li{margin:-1px 2px; font-size: 14px;}
+	.message-section{padding: 0;}
+	.message span{margin:0;padding:10px 0;}
+	.footer{position: relative;}
+
+}
+

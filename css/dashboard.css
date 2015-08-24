@@ -1,0 +1,431 @@
+
+.main-container {
+    margin: 0;
+    padding: 0;
+}
+.header, .dashboard-main-image {
+    box-shadow: 0 5px 10px 0 #e3e3e3 !important;
+    padding: 0;
+}
+.dashboard-main-image img {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.content-section {
+    background-image: url("../images/lhs-gradient.png");
+    background-position: center center;
+    background-repeat: repeat;
+    padding: 50px 0;
+}
+h2 {
+    font-family: "HelveticaNeueLight",helvetica,sans-serif;
+    font-size: 36px;
+}
+h2 > .primary-text-highlight {
+    background-color: #7c8791;
+    color: #fff;
+    padding: 5px;
+}
+.banner-img {
+    margin: 0;
+    padding: 0;
+}
+.banner-img {
+    background-image: url("../images/dashboard_main.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 530px;
+}
+
+.divider {
+    background-image: url("../images/divider.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 15px;
+}
+.toggle-block {
+    color: #1a3351;
+    float: none;
+    font-family: "HelveticaNeueLight";
+    font-size: 18px;
+    height: auto;
+    margin: 20px auto;
+}
+.consult-section {
+    padding: 50px;
+}
+.toggle-section {
+    float: none;
+    margin: 0 auto;
+}
+.toggle-section p {
+    clear: both;
+    margin: 0 auto;
+    padding: 15px 0 0;
+    position: relative;
+}
+..item-block{
+    padding-left:30px;
+}
+.item-block > h2{
+    font-size: 32px;
+    margin: 0;
+}
+
+.item-block > .doctor-info {
+    margin: 8px 0;
+}
+.doctor-info > .doctor-name {
+    color: #f76437;
+    font-weight: 300;
+    font-size: 17px;
+}
+.doctor-brief {
+    color: #999;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0;
+}
+.doctor-brief strong{
+    margin:0;
+}
+.doctor-brief a{
+    border: medium none;
+    color: #49b6ef;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.collapse-btn {
+    bottom: 1px;
+    position: absolute;
+    right: 8%;
+    cursor: pointer;
+}
+.collapse-btn img {
+    cursor: pointer;
+}
+.carousel-inner .active.left {
+    left: -25%;
+}
+.carousel-inner .next {
+    left: 25%;
+}
+.carousel-inner .prev {
+    left: -25%;
+}
+.carousel-control {
+    width: 4%;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    margin-left: 15px;
+}
+.carousel {
+    padding: 50px 50px 0;
+}
+.carousel-inner > .active, .carousel-inner > .next, .carousel-inner > .prev {
+    display: inline-block !important;
+}
+.carousel-inner > .item > div > a > img {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px 1px #ccc;
+}
+.carousel-inner > .item > div > a > label {
+    color: #c42710 !important;
+    font-family: "HelveticaNeueLight";
+    font-size: 16px;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.carousel-inner > .item > div > a > label:first-child {
+    margin: 15px 0 0;
+}
+.carousel-inner > .item > div > a > label:last-child {
+    color: #000 !important;
+    font-size: 15px;
+    font-weight: normal !important;
+    margin-bottom: 20px;
+    text-transform: none;
+}
+.carousel-inner > .item > div > a > label:last-child > span {
+    font-weight: bold !important;
+    padding: 0 5px;
+}
+.carousel-control.left, .carousel-control.right {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    padding-top: 10%;
+}
+.carousel-inner > .item {
+    transition: left 0.1s linear 0s !important;
+}
+.consult-section-block {
+    clear: both;
+    float: none;
+    margin: 0 auto;
+}
+.consult-section-block > span {
+    padding: 50px 0 0;
+}
+.consult-label {
+    font-family: "HelveticaNeueLight";
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.consult-section-block label {
+    font-family: "HelveticaNeueLight";
+    font-size: 18px;
+    font-weight: normal;
+    padding: 20px 0;
+}
+.subtitle-dashboard {
+    font-family: "HelveticaNeueLight";
+    font-size: 20px;
+}
+.pricing-label {
+    font-size: 25px;
+}
+.secondary-text-highlight {
+    background-color: #30afe5;
+    color: #fff;
+    margin: 0 5px;
+    padding: 0 5px;
+}
+.content-video-section {
+    clear: both;
+    float: none;
+    margin: 0 auto;
+}
+.modal-header, h4, .close {
+    background-color: #5cb85c;
+    color: white !important;
+    font-size: 30px;
+    text-align: center;
+}
+.modal-footer {
+    background-color: #f9f9f9;
+}
+.thumbnail {
+    padding: 2px !important;
+}
+.stories-section {
+    padding: 50px 0;
+}
+.story-btn {
+    margin-top: 15px;
+}
+.feature-section, .pricing-section {
+    padding: 20px 0;
+}
+.pricing-section {
+    clear: both;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.feature-section h3 {
+    font-weight: bold;
+}
+.block{
+    display: inline-block;
+    width:18%;
+}
+.client-image-section {
+    clear: both;
+    float: none;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.client-image-section img {
+    display: inline-block;
+    padding: 15px;
+}
+.service-block {
+    position: relative;
+}
+.service-block div > label {
+    font-family: "HelveticaNeueLight";
+    font-size: 16px;
+    font-weight: normal;
+    word-wrap: break-word;
+}
+.connecting-block {
+    border-top: 1px solid #f7a194;
+    left: 8%;
+    position: absolute;
+    top: 43%;
+    z-index: -1;
+}
+.connecting-block-xs{
+    display: none;
+}
+.banner-label{
+    padding: 20px;
+}
+
+/*Media Section*/
+@media (max-width: 1100px) {
+    .item-block > h2{
+        font-size: 25px;
+    }
+    .block{width:19%;}
+    .carousel-control.left, .carousel-control.right{
+        padding:14% 0%;
+    }
+    .toggle-block{font-size: 15px;}
+    .collapse-btn{right:0%;}
+    .consult-section-block img{width:70%;}
+}
+@media (max-width: 992px) {
+    .block{width:18%;}
+    .item.active > div:nth-child(4) {
+        display: none !important;
+    }
+    .item.active > div:nth-child(3) {
+        display: none !important;
+    }
+    .consult-section {
+        padding: 50px 0;
+    }
+    .client-image-section > img {
+        width: 15%;
+    }
+    .service-block > div > img {
+        width:100%;
+        padding: 0;
+    }
+    .connecting-block{
+        left:8%;
+        top:38%;
+    }
+   .consult-section-block img{
+        width:50%;
+    }
+     .service-block div{
+        padding: 5px;
+    }
+   .service-block div > label{
+        font-size:16px;
+   }
+   .carousel-control.left, .carousel-control.right{
+    padding-top: 16%;
+   }
+}
+
+
+@media (max-width: 767px) {
+    .header > .container{
+        padding: 0 15px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3, .h3 {
+        font-size: 18px;
+    }
+    .stories-section, .content-section, .consult-section {
+        padding: 20px 0;
+    }
+    .carausel-section{
+        padding: 0;
+    }
+    .carousel-inner > .item > div > a > img {
+        width: 100% !important;
+    }
+    .carousel-inner > .item > div > a > label {
+        font-size: 12px;
+        text-align: center;
+    }
+    .carousel-inner > .item > div > a > label:last-child {
+        font-size: 12px;
+    }
+   .carousel-control.left, .carousel-control.right{
+        padding-top:15%;
+        margin-left:8px;
+    }
+    .item.active{
+       overflow: hidden;
+    }
+    .carousel-control.right{
+        right:4%;
+    }
+    .consult-label {
+        font-size: 22px;
+        line-height: 36px;
+        margin: 5px;
+    }
+    .consult-section-block img {
+        width: 70%;
+    }
+    .client-image-section > img {
+        width: 30%;
+    }
+    .content-video-section div {
+        padding: 0 2px;
+    }
+    .thumbnail {
+        margin-bottom: 0;
+    }
+    .service-block span > label {
+        font-size: 15px;
+    }
+    .client-image-section img {
+        padding: 0px;
+    }
+    .service-block span:nth-child(5) {
+         padding:0 45px;
+    }
+    .service-block span:nth-child(6) {
+        padding:0 45px;   
+    }
+    .connecting-section {
+        float: left;
+    }
+    .connecting-block{
+        left:8%;
+        top:24%;
+    }
+    .connecting-block-xs{
+        display: block;
+        position: absolute;
+        border-top: 1px solid #f7a194;
+        position: absolute;
+        z-index: -1;
+        bottom: 32%;
+        left: 25%;
+    }
+    .carousel{
+         padding: 10px 25px 0;
+    }
+    .collapse-btn{
+        right:23%;
+        bottom:0%;
+    }
+   .service-block span{
+        padding: 15px;
+    }
+    .block{
+        margin: 15px;
+        width: 24%; 
+    }
+    .service-block div > label{
+        font-size: 15px;
+    }
+    .item-block > h2{
+        font-size: 18px
+    }
+    .doctor-info > .doctor-name{
+        font-size: 14px;
+    }
+    .doctor-brief{
+        font-size: 10px;
+    }
+    .item-block > .doctor-info{
+        margin:25px 0
+    }
+      .footer{position: relative;}
+
+}

@@ -1,0 +1,104 @@
+.main-content{
+
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.login-section{
+	border:1px solid #c4c4c4;
+	box-shadow: 0px 0px 5px 1px #c4c4c4;
+	padding: 50px;
+	background-image:  url('../images/header-bg.png');
+	background-repeat: repeat;
+	background-position: center;
+}
+.login-header{
+	padding: 0;
+}
+.login-header img,h3{
+	padding: 0 !important;
+	margin: 0 !important;
+	color:#35404f;
+}
+.login-input{
+	border:1px solid #c4c4c4;
+	background-color: #f8f8f8;
+	float: left;
+}
+.login-input-section input{
+	margin: 20px 0;
+	padding:10px;
+	border-right:0;
+}
+.username-img{
+	background-image:  url('../images/user.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	border:1px solid #c4c4c4;
+	padding: 20px;
+	 margin: 20px 0;
+	 background-color: #f9f9f9;
+	 border-left:none;
+}
+.password-img{
+	background-image:  url('../images/password.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	border:1px solid #c4c4c4;
+	padding: 20px;
+	margin: 20px 0;
+	background-color: #f9f9f9;
+	border-left:none;
+}
+.login-btn-section{
+    margin: 15px;
+    padding: 0 15px 0 0;
+   /* position: relative;*/
+}
+.login-btn{
+	background-color: #eb7260;
+	color:#fff;
+	font-size: 21px;
+}
+.login-btn:hover{
+	color:#fff;	
+}
+.login-btn::after{ 
+    background-image: url("../images/login-edge.png");
+    bottom: -10px;
+    content: "";
+    display: inline-block;
+    height: 9px;
+    position: absolute;
+    right: 18px;
+    width: 11px;
+}
+.input-login{
+	margin-bottom:0;
+}
+
+
+/*Media Query For Login*/
+@media (min-width: 992px) and (max-width: 1100px) {
+	.login-header {width:31% !important;}
+}
+
+@media (max-width: 768px) {
+.login-input-section{margin: 0 50px;}
+}
+
+
+@media (max-width: 767px) {
+	.login-input-section{margin: 0;}
+	.login-section{padding: 20px;}
+	.username-img{margin: 20px 0;padding: 20px 18px;}
+	.password-img{margin: 20px 0;padding: 20px 18px;}
+}
+
+@media (max-width: 355px) {
+	.login-section{padding: 20px 0;}
+	.username-img{padding: 20px 15px;}
+	.password-img{padding: 20px 15px;}
+}

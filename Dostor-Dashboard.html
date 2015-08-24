@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>2nd.MD | Doctor Dashboard</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/global.css" rel="stylesheet">
+        <link href="css/doctor-dashboard.css" rel="stylesheet">
+        <link href="css/reset.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--header part-->
+        <div class="container-fluid header">
+            <div class="container">
+                <!--logo-->
+                <div class="logo pull-left">
+                    <h1><img src="images/logo.png" class="img-responsive"/></h1>
+                </div>
+                <!--end logo-->
+                <!--header menu-->
+                <div class="pull-right">
+                    <!--start of main menu-->
+
+                    <button class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+
+                    <!--show items for small deivces-->
+                    <div class="small-dev-menu">
+                    
+                            <div class="toggle-dropdown">
+                                <a href="#"><img src="images/dr.-smoker.png" class="img-circle" />
+                                <p>
+                                  <i class="caret theme-color-caret"></i>
+                                </p>
+                                </a>
+                                <ul class="has-sub display-none small-menu">
+                                    <li><a href="#">Reports</a></li>
+                                    <li><a href="#">Appointments</a></li>
+                                    <li><a href="#">Corporate</a></li>
+                                </ul>
+                            </div>
+
+                    </div>
+                    <!--end show for small devices-->
+
+                    <ul class="mainmenu list-inline">
+                            <li>
+                                <a href="#"><img src="images/my-appointments.png" class="img-circle" /><span class="span_appointments">Appointments</span> <span class="counter">2</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/my-health.png" class="img-circle" /><span>My Health</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/my-doctors.png" class="img-circle" /><span>My Doctors</span></a>
+                            </li>
+                            <li class="toggle-dropdown large-dev-menu">
+                                <a href="#"><img src="images/dr.-smoker.png" class="img-circle" />
+                                <p>
+                                    <span>Dr. Smoker</span><i class="caret theme-color-caret"></i>
+                                </p>
+                                </a>
+                                <ul class="has-sub display-none small-menu">
+                                    <li><a href="#">Reports</a></li>
+                                    <li><a href="#">Appointments</a></li>
+                                    <li><a href="#">Corporate</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                            <!--end of main menu-->
+                    </div>
+                        <!--end header menu-->
+                </div>
+            </div>
+                <!--end of header part-->
+
+            <div class="container main-content">
+
+                <div class="left-panel col-md-4 col-sm-4">
+
+                   <div class="left-panel-one col-md-12">
+                        <div class="doctor-account">
+                              <a href="#">
+                                <img src="images/Sanjiv.png" class="img-circle" />
+                              </a>
+                              <label> Dr. Sanjiv</label>
+                        </div>
+                        <div class="acc-setting text-right">Account Settings</div>
+
+                        <div class="portion">
+
+                            <div class="partition"></div>
+
+                            <div class="profile-completeness">
+                                <h3 class="text-center">Profile Completeness<img src="images/information-img.png" class="img-circle"></h3>
+                                <div class="graph-img col-md-11 col-sm-10 col-xs-8"><img src="images/graph.png"/></div>
+                            </div>
+
+                            <div class="percentage-section">
+                               
+                                <div class="sub-section-one toggle-section">
+                                 
+                                    <label class="percentage-quote">20% </label>
+                                    <label class="percentage-detail">Add 2 medical tags</label>
+                              
+                                    <span class="pull-right">
+                                        <img src="images/toggle-expand-btn.png" class="img-circle" data-toggle="collapse" data-target="#section-one">
+                                        <img src="images/information-img.png" class="img-circle">
+                                    </span>
+
+                                    <div id="section-one" class="collapse">
+                                        Some text..
+                                    </div>  
+                                </div>
+                                <div class="sub-section-two toggle-section">
+                                    <label class="percentage-quote">15% </label>
+                                    <label class="percentage-detail"><div>Add Details</div><div class="character-limit">(1007 Character)</div></label>
+                              
+                                    <span class="pull-right">
+                                        <img src="images/toggle-expand-btn.png" class="img-circle" data-toggle="collapse" data-target="#section-two">
+                                        <img src="images/information-img.png" class="img-circle">
+                                    </span>
+
+                                    <div id="section-two" class="collapse">
+                                        Some text..
+                                    </div>  
+                                 </div> 
+                                 <div class="sub-section-three toggle-section">
+                                    <label class="percentage-quote">10% </label>
+                                    <label class="percentage-detail">Add Pictures</label>
+
+                                    <span class="pull-right">
+                                        <img src="images/toggle-expand-btn.png" class="img-circle" data-toggle="collapse" data-target="#section-three">
+                                        <img src="images/information-img.png" class="img-circle">
+                                    </span>
+
+                                    <div id="section-three" class="collapse">
+                                        Some text..
+                                    </div>  
+                                </div> 
+                                <div class="sub-section-four toggle-section">
+                                    <label class="percentage-quote">10% </label>
+                                    <label class="percentage-detail">Add a File</label>
+
+                                    <span class="pull-right">
+                                        <img src="images/toggle-expand-btn.png" class="img-circle" data-toggle="collapse" data-target="#section-four">
+                                        <img src="images/information-img.png" class="img-circle">
+                                    </span>
+
+                                    <div id="section-four" class="collapse">
+                                        Some text..
+                                    </div>  
+                                </div> 
+                           </div>
+
+                
+                 
+                            <div class="rating-section col-md-12">
+                                <!-- Rating Text right aligned missing, need to do-->
+                                <div class="col-md-12">
+                                    <span class="col-md-3 col-sm-3 col-xs-3"><img src="images/rating-add.png"></span>
+                                    <span class="col-md-9">
+                                        <label class="rating-label text-right">3.0 / 5.0</label>
+                                        <span class="rating-highlight">Client Rating</span>
+                                    </span>
+                                </div>
+
+                                 <div class="col-md-12">
+                                    <span class="col-md-3 col-sm-3 col-xs-3"><img src="images/rating-logo.png"></span>
+                                    <span class="col-md-9">
+                                        <label class="rating-label text-right">0</label>
+                                        <span class="rating-highlight">Specialist Approvals</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="statistic-section col-md-12">
+                                    <h3 class="text-center">Profile Completeness</h3>
+
+                                    <div class="toggle-section col-md-12">
+                                        <label class="col-md-6 text-left">Followers</label>
+                                        <label class="col-md-6 text-right pull-right">545</label>
+                                    </div>
+                                     <div class="toggle-section col-md-12">
+                                        <label class="col-md-6 text-left">Page Views</label>
+                                        <label class="col-md-6 text-right pull-right">370</label>
+                                    </div>
+                                     <div class="toggle-section col-md-12">
+                                        <label class="col-md-6 text-left">Completed Appts.</label>
+                                        <label class="col-md-6 text-right pull-right">246</label>
+                                    </div>
+                                     <div class="toggle-section col-md-12">
+                                        <label class="col-md-6 text-left">Total Earnings</label>
+                                        <label class="col-md-6 text-right pull-right">$50,150</label>
+                                    </div>
+                            </div>
+
+                        </div>
+                    </div> <!-- Toggle Portion End-->
+
+                          <div class="left-panel-two col-xs-12 pull-left">
+                             <h3 class="text-center">Doctors You May Know</h3>
+
+                             <div class="doctor-list text-center">
+                                <div class="col-md-12"><img src="images/Sanjiv.png" class="image-circle" /></div>
+                                <div class="col-md-12"><label class="doctor-name">Robert Lahita</label></div>
+                                <label class="doctor-address col-xs-12">Barnabas Health Jefferson Medical College of Thomas Jefferson University</label>
+                                <button class="btn btn-default recommand-btn">Recommand</button>
+                             </div>
+
+                             <div class="doctor-list text-center">
+                                <div class="col-md-12"><img src="images/Sanjiv.png" class="image-circle" /></div>
+                                <div class="col-md-12"><label class="doctor-name">Robert Singer</label></div>
+                                <label class="doctor-address col-xs-12">Vanderbilt University Medical Center University of Nebraska College of Medicine</label>
+                                <button class="btn btn-default recommand-btn">Recommand</button>
+                             </div>
+                        </div>
+                    </div><!-- Left Panel End -->
+
+                    <div class="right-panel col-md-8 col-sm-8 col-xs-12">
+
+                        <div class="upcoming-section col-md-12 col-xs-12">
+                            <h3 class="text-left">Upcoming Appointments</h3>
+                                <div>
+                                    <ul class="col-xs-12">
+                                        <li class="col-md-12 col-xs-12">
+                                            <span class="appointed-doctor col-md-3 col-sm-4 col-xs-6 text-left"><a href="#">Sanjiv Chopra</a></span>
+                                            <span class="appointment-time col-md-3 col-sm-4 col-xs-6 text-left">12:53PM 08/12/2014</span>
+                                            <span class="chat-prev col-md-6 col-sm-4 col-xs-12 text-right"><a href="#">Chat Preview</a></span>
+                                        </li>
+
+                                         <li class="col-md-12 col-xs-12">
+                                           <span class="appointed-doctor col-md-3 col-sm-4 col-xs-6 text-left"><a href="#">Sanjiv Chopra</a></span>
+                                            <span class="appointment-time col-md-3 col-sm-4 col-xs-6 text-left">12:53PM 08/12/2014</span>
+                                            <span class="chat-prev col-md-6 col-sm-4 col-xs-12 text-right"><a href="#">Chat Preview</a></span>
+                                        </li>
+
+
+                                         <li class="col-md-12 col-xs-12">
+                                          <span class="appointed-doctor col-md-3 col-sm-4 col-xs-6 text-left"><a href="#">Sanjiv Chopra</a></span>
+                                            <span class="appointment-time col-md-3 col-sm-4 col-xs-6 text-left">12:53PM 08/12/2014</span>
+                                            <span class="chat-prev col-md-6 col-sm-4 col-xs-12 text-right"><a href="#">Chat Preview</a></span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                       </div>
+
+                        <div class="appointment-section col-xs-12 col-md-12">
+                            <h3 class="text-left">Appointments</h3>
+
+                            <div class="col-md-12 col-xs-12">
+                  
+                                <ul id="myTab" class="nav nav-tabs col-md-12 col-xs-12">
+                                     <li class="active">
+                                         <a href="#summary-one" data-toggle="tab">Summary 
+                                         <span class="badge">2</span>
+                                         </a>
+                                     </li>
+                                     <li class=""><a href="#summary-two" data-toggle="tab">Summary <span class="badge">4</span></a></li>
+                                     <li class=""><a href="#summary-three" data-toggle="tab">Summary <span class="badge">6</span></a></li>
+
+                                </ul>
+
+                                  <div id="myTabContent" class="tab-content col-md-12 col-xs-12">
+                                     <div class="tab-pane fade in active" id="summary-one">
+                                        <ul class="col-md-12 col-xs-12">
+                                            <li class="col-md-12 col-xs-12">
+                                                <span class="col-md-4 col-xs-4 text-left">Name</span>
+                                                <span class="col-md-4 col-xs-4 text-left">From</span>
+                                                <span class="col-md-4 col-xs-4 text-left"></span>
+                                            </li>
+
+                                             <li class="col-md-12 col-xs-12">
+                                                <span class="col-md-4 col-xs-4 text-left">Name</span>
+                                                <span class="col-md-4 col-xs-4 text-left">From</span>
+                                                <span class="col-md-4 col-xs-4 text-left"></span>
+                                            </li>
+                                            <li class="col-md-12 col-xs-12">
+                                                <span class="col-md-4 col-xs-4 text-left">Name</span>
+                                                <span class="col-md-4 col-xs-4 text-left">From</span>
+                                                <span class="col-md-4 col-xs-4 text-left"></span>
+                                            </li>
+                                        </ul>
+                                     </div>
+
+                                     <div class="tab-pane fade col-md-12 col-xs-12" id="summary-two">
+                                          <ul class="col-md-12 col-xs-12">
+                                           <li class="col-md-12 col-xs-12">
+                                                <span class="col-md-4 col-xs-4 text-left">Name</span>
+                                                <span class="col-md-4 col-xs-4 text-left">From</span>
+                                                <span class="col-md-4 col-xs-4 text-left"></span>
+                                            </li>
+
+                                              <li class="col-md-12 col-xs-12">
+                                                <span class="col-md-4 col-xs-4 text-left">Name</span>
+                                                <span class="col-md-4 col-xs-4 text-left">From</span>
+                                                <span class="col-md-4 col-xs-4 text-left"></span>
+                                            </li>
+                                              <li class="col-md-12 col-xs-12">
+                                                <span class="col-md-4 col-xs-4 text-left">Name</span>
+                                                <span class="col-md-4 col-xs-4 text-left">From</span>
+                                                <span class="col-md-4 col-xs-4 text-left"></span>
+                                            </li>
+
+                                             <li class="col-md-12 col-xs-12">
+                                                <span class="col-md-4 col-xs-4 text-left">Name</span>
+                                                <span class="col-md-4 col-xs-4 text-left">From</span>
+                                                <span class="col-md-4 col-xs-4 text-left"></span>
+                                            </li>
+                                              <li class="col-md-12 col-xs-12">
+                                                <span class="col-md-4 col-xs-4 text-left">Name</span>
+                                                <span class="col-md-4 col-xs-4 text-left">From</span>
+                                                <span class="col-md-4 col-xs-4 text-left"></span>
+                                            </li>
+                                        </ul>
+                                     </div>
+
+                                     <div class="tab-pane fade col-md-12 col-xs-12" id="summary-three">
+                                          <ul class="col-md-12 col-xs-12">
+                                            <li class="col-md-12 col-xs-12">
+                                                <span class="col-md-4 col-xs-4 text-left">Name</span>
+                                                <span class="col-md-4 col-xs-4 text-left">From</span>
+                                                <span class="col-md-4 col-xs-4 text-left"></span>
+                                            </li>
+                                           <li class="col-md-12 col-xs-12">
+                                                <span class="col-md-4 col-xs-4 text-left">Name</span>
+                                                <span class="col-md-4 col-xs-4 text-left">From</span>
+                                                <span class="col-md-4 col-xs-4 text-left"></span>
+                                            </li>
+                                            <li class="col-md-12 col-xs-12">
+                                                <span class="col-md-4 col-xs-4 text-left">Name</span>
+                                                <span class="col-md-4 col-xs-4 text-left">From</span>
+                                                <span class="col-md-4 col-xs-4 text-left"></span>
+                                            </li>
+
+                                            <li class="col-md-12 col-xs-12">
+                                                <span class="col-md-4 col-xs-4 text-left">Name</span>
+                                                <span class="col-md-4 col-xs-4 text-left">From</span>
+                                                <span class="col-md-4 col-xs-4 text-left"></span>
+                                            </li>
+                                            <li class="col-md-12 col-xs-12">
+                                                <span class="col-md-4 col-xs-4 text-left">Name</span>
+                                                <span class="col-md-4 col-xs-4 text-left">From</span>
+                                                <span class="col-md-4 col-xs-4 text-left"></span>
+                                            </li>
+
+                                            <li class="col-md-12 col-xs-12">
+                                                <span class="col-md-4 col-xs-4 text-left">Name</span>
+                                                <span class="col-md-4 col-xs-4 text-left">From</span>
+                                                <span class="col-md-4 col-xs-4 text-left"></span>
+                                            </li>
+                                              <li class="col-md-12 col-xs-12">
+                                                <span class="col-md-4 col-xs-4 text-left">Name</span>
+                                                <span class="col-md-4 col-xs-4 text-left">From</span>
+                                                <span class="col-md-4 col-xs-4 text-left"></span>
+                                            </li>
+                                        </ul>
+                                     </div>
+                                  </div>
+                                </div>
+                            </div>
+
+
+                        <div class="new-message-section col-xs-12 col-md-12">
+                        <h3 class="text-left">New Messages</h3>
+
+                            <div class="message-section col-md-12 col-xs-12">
+                                <div class="message col-md-12 col-xs-12">
+                                    <span class="col-md-1 col-xs-2">
+                                        <img src="images/client-thumb.png"/>
+                                    </span>
+                                    <span class="col-md-11 col-xs-10">
+                                        <label>You have received a rating.</label>
+                                        <label>Dr. Smoker,</label>
+                                        <label>Super Sagar gave you a rating of:5 (out of 5)</label>
+                                        <label>To see comments from this sess...</label>
+                                    </span>
+                                </div>
+
+                                   <div class="message col-md-12 col-xs-12">
+                                    <span class="col-md-1 col-xs-2">
+                                        <img src="images/client-thumb.png"/>
+                                    </span>
+                                    <span class="col-md-11 col-xs-10">
+                                        <label>You have received a rating.</label>
+                                        <label>Dr. Smoker,</label>
+                                        <label>Super Sagar gave you a rating of:5 (out of 5)</label>
+                                        <label>To see comments from this sess...</label>
+                                    </span>
+                                </div>
+
+                            </div>
+
+                       </div>
+
+                   </div>
+                </div> <!-- Container End-->
+                <!--start of content part-->
+
+    <!--end of content part-->
+            <div class="clearfix">&nbsp;</div>
+                <!--footer-->
+                <div class="container-fluid footer">
+                    <div class="container">
+                        <!--footer list-->
+                        <div class="display-inline-block">
+                            <ul class="footerlist list-inline pull-left">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Press</a></li>
+                                <li><a href="#">Our Leadership</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Terms and Privacy</a></li>
+                                <li><a href="#">Policy</a></li>
+                            </ul>
+                        </div>
+                        <!--end footer list-->
+                        <div class="display-inline-block copyright pull-right">
+                            &copy; 2011 2nd.MD, All Rights Reserved
+                        </div>
+                    </div>
+                </div>
+                <!--end footer-->
+                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                <script src="js/jquery-1.11.3.min.js"></script>
+                <!-- Include all compiled plugins (below), or include individual files as needed -->
+                <script src="js/bootstrap.js"></script>
+                <script src="js/layout.js"></script>
+            </body>
+        </html>
