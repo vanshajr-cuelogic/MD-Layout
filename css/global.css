@@ -10,6 +10,13 @@
     font-style:normal;
     font-weight:normal;
 }
+@font-face {
+    font-family: 'BRADHITC';
+    src: url('../fonts/BRADHITC.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+}
+
 
 
 html{

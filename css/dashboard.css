@@ -31,12 +31,24 @@ h2 > .primary-text-highlight {
     padding: 0;
 }
 .banner-img {
-    background-image: url("../images/dashboard_main.jpg");
+    background-image: url("../images/dashboard-banner-img.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     height: 530px;
+    position: relative;
 }
-
+.best-doctor-label{
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+      font-family: BRADHITC;
+    font-size: 26px;
+    font-weight: normal;
+    position: absolute;
+    right: 22%;
+    text-shadow: 0 0;
+    top: 24%;
+}
 .divider {
     background-image: url("../images/divider.png");
     background-position: center center;
@@ -130,7 +142,10 @@ h2 > .primary-text-highlight {
 .carousel-inner > .item > div > a > img {
     background: #fff none repeat scroll 0 0;
     border-radius: 50%;
-    box-shadow: 0 1px 3px 1px #ccc;
+    width: 70%;
+    box-shadow: 0px 0px 0px 1px #ccc;
+    padding: 3px;
+    margin: 2px;
 }
 .carousel-inner > .item > div > a > label {
     color: #c42710 !important;
@@ -263,8 +278,33 @@ h2 > .primary-text-highlight {
     display: none;
 }
 .banner-label{
-    padding: 20px;
+     border: 3px solid #fff;
+    left: 15%;
+    padding: 20px 14px;
+    position: absolute;
+    top: 15%;
+    background: #f6f7f9;
 }
+.climb-banner{
+    left: 26%;
+    position: absolute;
+    top: 8%;
+    z-index: 2;
+}
+ .get-answer{
+    left: 28%;
+    position: absolute;
+    top: 38%;
+ }
+   .collapse-btn-expand{
+   cursor: pointer;
+   }
+   .collapse-banner-content{
+    background:#f6f7f9;
+    margin: 10px 0;
+    position: relative;
+    z-index: 4;
+   }
 
 /*Media Section*/
 @media (max-width: 1100px) {
@@ -276,10 +316,13 @@ h2 > .primary-text-highlight {
         padding:14% 0%;
     }
     .toggle-block{font-size: 15px;}
-    .collapse-btn{right:0%;}
+    .collapse-btn{right:1%;}
     .consult-section-block img{width:70%;}
 }
+
 @media (max-width: 992px) {
+    .carousel-inner > .item > div > a > img{width:50%;}
+    .collapse-btn{right:3%;}
     .block{width:18%;}
     .item.active > div:nth-child(4) {
         display: none !important;
@@ -312,6 +355,21 @@ h2 > .primary-text-highlight {
    }
    .carousel-control.left, .carousel-control.right{
     padding-top: 16%;
+   }
+   .banner-label{
+    left:1%;
+    top:20%;
+   }
+   .climb-banner{
+    left:15%;
+    top:12%;
+   }
+   .best-doctor-label{
+    right:1%;
+   }
+   .get-answer{
+     left: 18%;
+     top: 40%;
    }
 }
 
@@ -401,7 +459,6 @@ h2 > .primary-text-highlight {
          padding: 10px 25px 0;
     }
     .collapse-btn{
-        right:23%;
         bottom:0%;
     }
    .service-block span{
@@ -426,6 +483,22 @@ h2 > .primary-text-highlight {
     .item-block > .doctor-info{
         margin:25px 0
     }
-      .footer{position: relative;}
-
+    .footer{position: relative;}
+    .best-doctor-label{
+        display: none;
+    }
+    .banner-label{
+        left:3%;
+        padding: 10px 5px;
+    }
+    .get-answer{
+        right: 2%;
+        top: 25%;
+        left:auto;
+    }
+    .banner-img{
+        background-position: 57% center;
+        background-repeat: no-repeat;
+        background-size: 300% 100%;
+    }
 }
