@@ -2,6 +2,7 @@ $(document).ready(function() {
     //for toggleing menu
     toggleFn();
     mobileMenu();
+    myhealthDataTextbox();
 
     /*Doctor Dashboard*/
     var device_width = $(window).width();
@@ -110,6 +111,20 @@ function mouseUpFn() {
     });
 }
 
+   
+/*code for myhealth textbox*/  
+function myhealthDataTextbox() {  
+      
+  $(".myhealth-docs li").each(function() {  
+        var test = $('.update-img');  
+        var test2 = $('.myhealth-docs li label');  
+        var test3 = $('.edit-name');  
+        $(this).find(test).on('click',function(){  
+            $(this).parent().prev().find(test2).toggle();  
+            $(this).parent().prev().find(test3).toggle();  
+        });  
+});  
+} 
 
 /*code for toggle navbar*/
 function mobileMenu() {
