@@ -1,7 +1,16 @@
 
+h3.pageheader1{
+margin-top: 0px;
+margin-bottom: 0px;
+}
+h4.pageheader3{
+margin-top: 0px;
+margin-bottom: 0px;
+}
 
-.main-content{
-	margin-top:25px;
+h3.pageheader4{
+margin-top: 0px;
+margin-bottom: 0px;
 }
 
 .grey-wrapper{
@@ -14,36 +23,47 @@
 	border:thin solid #e8e8e8;
 }
 
-.media-padding{
-	padding:15px;
+.media-padding {
+    padding: 0px 0px 20px 0px;
+    margin: 20px 15px 0px 15px;
+    border-bottom: 1px solid #e5e5e5;
 }
-.media-padding{
-	padding:15px;
+
+.media-padding:first-child {
+    padding: 0px 0px 20px 0px;
+    margin: 15px 15px 0px 15px;
+}
+
+.media-padding:last-child {
+    border-bottom: none;
 }
 
 .suggested-doctor-padding{
-	padding:25px 20px;
+	padding: 0px 0px 25px 0px;
+	margin: 25px 20px 0px 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.suggested-doctor-padding:first-child {
+	padding: 0px 0px 25px 0px;
+    margin: 20px 20px 0px 20px;
+}
+.suggested-doctor-padding:last-child{
+	border-bottom: none;
 }
 
 .thumb-padding{
 	padding-right:15px;
 }
 
-.client-comment-heading{
-	margin-top: 0;
-    margin-bottom: 5px;
-    font-size: 16px;
-    font-weight: 700;
-}
+
 
 .client-comment-text{
 	font-size: 15px;
 	font-weight: 500;
 }
 
-.content-para{
-	font-size: 16px;
-}
+
 .content-para-padding{
 	padding:15px 0px;
 }
@@ -61,16 +81,6 @@
 	border:thin solid #858585;
 }
 
-.suggested-doctor-btn{
-	color: #fff;
-    background-color: #ff705b;
-    margin: 25px 0px 0px 0px;
-    border-radius: 5px;
-    padding:5px 23px;
-}
-
-
-
 .media-border{
 
 	border-bottom: 1px solid #ffffff;
@@ -81,16 +91,61 @@
 }
 
 .doctor-box-alignment{
-	margin: 0px 25px 25px 25px;
+	/*margin: 0px 25px 25px 25px;*/
     padding: 25px 0px 25px 0px;
 }
 
 .doctor-box-alignment:first-child{
-    border-bottom: 1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    -moz-box-shadow:0 1px 0px #ddddde;
+	-webkit-box-shadow:0 1px 0px #ddddde;
+	box-shadow:0 1px 0px #ddddde;
+    margin: 0px 25px 0px 25px;
 
 }
 
-.doctor-box-alignment:nth-child[2]{
+.doctor-box-alignment:nth-child(2){
     padding: 0px 0px 25px 0px;
-    margin: 0px 25px 25px 25px;
+    margin: 25px 25px 0px 25px;
+}
+
+@media(max-width: 767px){
+
+.doctor-box-alignment {
+    padding: 20px 0px;
+}
+
+.doctor-box-alignment:nth-child(2) {
+    padding: 0px 0px 20px;
+    margin: 20px 25px 0px;
+}
+
+.doctor-box-alignment:first-child {
+    border-bottom: 1px solid #CCC;
+    box-shadow: 0px 1px 0px #DDDDDE;
+    margin: 0px 25px;
+}
+
+.suggested-doctor-padding:first-child {
+    padding: 0px 0px 20px;
+    margin: 25px 25px 0px;
+}
+.suggested-doctor-padding {
+    padding: 0px 0px 25px;
+    margin: 25px 25px 0px;
+}
+
+.appointments-padding {
+    padding: 10px 25px;
+}
+
+.media-padding {
+    margin: 20px 25px 0px;
+}
+
+.media-padding:first-child {
+    margin: 25px 25px 0px;
+}
+
+
 }

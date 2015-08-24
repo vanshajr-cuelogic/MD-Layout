@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>2nd.MD | My Health Data</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/global.css" rel="stylesheet">
+        <link href="css/my-health.css" rel="stylesheet">
+        <link href="css/reset.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--header part-->
+        <div class="container-fluid header">
+            <div class="container">
+                <!--logo-->
+                <div class="logo pull-left">
+                    <h1><img src="images/logo.png" class="img-responsive"/></h1>
+                </div>
+                <!--end logo-->
+                <!--header menu-->
+                <div class="pull-right">
+                    <!--start of main menu-->
+
+                    <button class="navbar-toggle">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+
+                    <!--show items for small deivces-->
+                    <div class="small-dev-menu">
+                    
+                            <div class="toggle-dropdown">
+                                <a href="#"><img src="images/dr.-smoker.png" class="img-circle" />
+                                <p>
+                                  <i class="caret theme-color-caret"></i>
+                                </p>
+                                </a>
+                                <ul class="has-sub display-none small-menu">
+                                    <li><a href="#">Reports</a></li>
+                                    <li><a href="#">Appointments</a></li>
+                                    <li><a href="#">Corporate</a></li>
+                                </ul>
+                            </div>
+
+                    </div>
+                    <!--end show for small devices-->
+
+                    <ul class="mainmenu list-inline">
+                            <li>
+                                <a href="#"><img src="images/my-appointments.png" class="img-circle" /><span class="span_appointments">Appointments</span> <span class="counter">2</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/my-health.png" class="img-circle" /><span>My Health</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/my-doctors.png" class="img-circle" /><span>My Doctors</span></a>
+                            </li>
+                            <li class="toggle-dropdown large-dev-menu">
+                                <a href="#"><img src="images/dr.-smoker.png" class="img-circle" />
+                                <p>
+                                    <span>Dr. Smoker</span><i class="caret theme-color-caret"></i>
+                                </p>
+                                </a>
+                                <ul class="has-sub display-none small-menu">
+                                    <li><a href="#">Reports</a></li>
+                                    <li><a href="#">Appointments</a></li>
+                                    <li><a href="#">Corporate</a></li>
+                                </ul>
+                            </li>
+                            <!-- <li class="toggle-dropdown large-dev-menu">
+                                <a href="#">
+                                    <img src="images/admin.png" class="img-circle" />
+                                    <p>
+                                        <span>Admin</span><i class="caret"></i>
+                                    </p>
+                                </a>
+                                    <ul class="has-sub display-none big-menu">
+                                        <li class="border-none">
+                                            <a href="#">Accounts</a>
+                                            <a href="#">Terms</a>
+                                            <a href="#">SEO</a>
+                                            <a href="#">Blog</a>
+                                        </li>
+                                        <li class="border-none">
+                                            <a href="#">Appointments</a>
+                                            <a href="#">Corporate</a>
+                                            <a href="#">CMS</a>
+                                            <a href="#">Tools</a>
+                                        </li>
+                                        <li>                                            
+                                            <a href="#">Reports</a>
+                                            <a href="#">Appointments</a>
+                                            <a href="#" class="color-orange">Logout</a>
+                                        </li>
+                                    </ul>
+                            </li> -->
+                        </ul>
+                            <!--end of main menu-->
+                    </div>
+                        <!--end header menu-->
+                </div>
+            </div>
+                <!--end of header part-->
+
+                <!--start of content part-->
+                <div class="container main-content">
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <h2 class="pageheader1">My Health</h2>
+                        </div>
+                    </div>
+                    <!--end of row-->    
+
+
+                        <div class="col-md-12">
+
+                              <!-- Nav tabs -->
+                              <ul class="nav nav-tabs myhealth-tabs" role="tablist">
+                                <li role="presentation" class="active"><a href="#my-documents" aria-controls="my-documents" role="tab" data-toggle="tab">My Documents</a></li>
+                                <li role="presentation"><a href="#my-health-interests" aria-controls="my-health-interests" role="tab" data-toggle="tab">My Health Interests</a></li>
+                                <li role="presentation"><a href="#my-health-data" aria-controls="my-health-data" role="tab" data-toggle="tab">My Health Data</a></li>
+                                <li role="presentation"><a href="#system-test" aria-controls="system-test" role="tab" data-toggle="tab">System Test</a></li>
+                              </ul>
+
+                              <!-- Tab panes -->
+
+                                <div class="tab-content myhealth-tab-content">
+                                
+                                 <!--first pane-->
+                                 <div role="tabpanel" class="tab-pane active" id="my-documents">
+                                    <div class="tab-heading">
+                                        <h4 class="pageheader4">Make the most of your appointment.</h4>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button class="btn btn-default">Upload CD or Files</button>
+                                        <button class="btn btn-default">View Update</button>
+                                    </div>
+                                    <!-- <div class="col-md-3 col-sm-6 col-xs-12 btn-pos">
+                                        <button class="btn btn-default">View Update</button>
+                                    </div> -->
+                                    <!-- <div class="clearfix">&amp;nbsp;</div> -->
+                                    <p class="text-center small-text-info">DICOM, photos, reports, PDFs, etc.</p>
+
+                                    <div class="hrline">&nbsp;</div>
+
+                                    <h3 class="pageheader5">Please add descriptions for each of the the files below.</h3>
+
+                                        <!--border box-->
+                                        <div class="borderbox">
+
+                                          
+                                            <ul class="myhealth-docs">
+
+                                               <!--row-->
+                                                <li>
+                                                    <div class="col-xs-8">
+                                                        <label for="">Default Image</label>
+
+                                                        <!--code for hidden textbox-->
+                                                      <div class="edit-name pull-left display-none">
+                                                        <input type="text" placeholder="Default Image"/>
+                                                        <a href="#">Save</a>
+                                                      </div>
+                                                      <!--end code for hidden textbox-->
+
+                                                      <div class="file-type">
+                                                        <span class="image">imagename.png</span>
+                                                      </div>
+
+                                                    </div>
+
+                                                    <div class="col-xs-4 text-right">
+                                                        <a href="javascript:void(0)"><img src="images/view-img.png"/></a>
+                                                        <a href="javascript:void(0)" class="update-img"><img src="images/update-img.png"/></a>
+                                                        <a href="javascript:void(0)"><img src="images/delete-img.png"/></a>
+                                                    </div>
+
+                                                </li>
+                                                <!--end row-->
+                                                 <!--row-->
+                                                <li>
+                                                    <div class="col-xs-8">
+                                                        <label for="">Default Image</label>
+
+                                                        <!--code for hidden textbox-->
+                                                      <div class="edit-name pull-left display-none">
+                                                        <input type="text" placeholder="Default Image"/>
+                                                        <a href="#">Save</a>
+                                                      </div>
+                                                      <!--end code for hidden textbox-->
+
+                                                      <div class="file-type">
+                                                        <span class="image">imagename.png</span>
+                                                      </div>
+
+                                                    </div>
+
+                                                    <div class="col-xs-4 text-right">
+                                                        <a href="javascript:void(0)"><img src="images/view-img.png"/></a>
+                                                        <a href="javascript:void(0)" class="update-img"><img src="images/update-img.png"/></a>
+                                                        <a href="javascript:void(0)"><img src="images/delete-img.png"/></a>
+                                                    </div>
+
+                                                </li>
+                                                <!--end row-->
+                                                 <!--row-->
+                                                <li>
+                                                    <div class="col-xs-8">
+                                                        <label for="">Default Image</label>
+
+                                                        <!--code for hidden textbox-->
+                                                      <div class="edit-name pull-left display-none">
+                                                        <input type="text" placeholder="Default Image"/>
+                                                        <a href="#">Save</a>
+                                                      </div>
+                                                      <!--end code for hidden textbox-->
+
+                                                      <div class="file-type">
+                                                        <span class="image">imagename.png</span>
+                                                      </div>
+
+                                                    </div>
+
+                                                    <div class="col-xs-4 text-right">
+                                                        <a href="javascript:void(0)"><img src="images/view-img.png"/></a>
+                                                        <a href="javascript:void(0)" class="update-img"><img src="images/update-img.png"/></a>
+                                                        <a href="javascript:void(0)"><img src="images/delete-img.png"/></a>
+                                                    </div>
+
+                                                </li>
+                                                <!--end row-->
+
+                                                 <!--row-->
+                                                <li>
+                                                    <div class="col-xs-8">
+                                                        <label for="">Default Image</label>
+
+                                                        <!--code for hidden textbox-->
+                                                      <div class="edit-name pull-left display-none">
+                                                        <input type="text" placeholder="Default Image"/>
+                                                        <a href="#">Save</a>
+                                                      </div>
+                                                      <!--end code for hidden textbox-->
+
+                                                      <div class="file-type">
+                                                        <span class="image">imagename.png</span>
+                                                      </div>
+
+                                                    </div>
+
+                                                    <div class="col-xs-4 text-right">
+                                                        <a href="javascript:void(0)"><img src="images/view-img.png"/></a>
+                                                        <a href="javascript:void(0)" class="update-img"><img src="images/update-img.png"/></a>
+                                                        <a href="javascript:void(0)"><img src="images/delete-img.png"/></a>
+                                                    </div>
+
+                                                </li>
+                                                <!--end row-->
+
+                                               
+
+                                        
+                                            </ul>
+
+                                            <div class="clearfix">&nbsp;</div>
+                                            <div class="col-md-4 pull-right bottom-right-element no-padding">
+                                               <div class="pull-right">
+                                                <p class="small-text-info">Your Information on 2nd.Md is protected by:</p>
+                                                 <span><img src="images/securedby1.png"></span>
+                                                 <span><img src="images/securedby2.png"></span>
+                                                 <span><img src="images/securedby3.png"></span>
+                                                 <span><img src="images/securedby4.png"></span>
+                                               </div>  
+
+                                            </div> 
+                                             
+                                        </div>
+                                        <!--end border box-->  
+
+                                </div>
+                                <!--end first pane-->
+
+                                <!--second pane-->
+                                <div role="tabpanel" class="tab-pane" id="my-health-interests">
+                                    
+                                    
+                                    <div class="tab-heading">
+                                        <h4 class="pageheader4">What kind of medical expertise are you looking for?</h4>
+                                        <p>The more information you share, the easier it will be for us to match you with the best specialist possible.</p>
+                                    </div>
+
+                                <div class="row">    
+                                    <!--diseases column first-->
+                                    <div class="col-md-4">
+                                       <ul class="list-unstyled disease-list">
+                                            <li><input type="checkbox" id="allergy-immunology"><label for="allergy-immunology">Allergy &amp; Immunology</label></li>
+                                            <li><input type="checkbox" id="infectious-disease"><label for="infectious-disease">Infectious Disease</label></li>
+                                            <li><input type="checkbox" id="pediatrics"><label for="pediatrics">Pediatrics</label></li>
+                                            <li><input type="checkbox" id="anesthesiology"><label for="anesthesiology">Anesthesiology</label></li>
+                                            <li><input type="checkbox" id="internal-medicine"><label for="internal-medicine">Internal Medicine</label></li>
+                                            <li><input type="checkbox" id="physical-medicine"><label for="physical-medicine">Physical Medicine &amp; Rehabilitation</label></li>
+                                            <li><input type="checkbox" id="bariatric-medicine"><label for="bariatric-medicine">Bariatric Medicine / Weight Management</label></li>
+                                            <li><input type="checkbox" id="medical-genetics"><label for="medical-genetics">Medical Genetics</label></li>
+                                            <li><input type="checkbox" id="plastic-surgery"><label for="plastic-surgery">Plastic Surgery</label></li>
+                                            <li><input type="checkbox" id="cardiology"><label for="cardiology">Cardiology</label></li>
+                                            <li><input type="checkbox" id="nephrology"><label for="nephrology">Nephrology</label></li>
+                                            <li><input type="checkbox" id="preventative-medicine"><label for="preventative-medicine">Preventative Medicine</label></li>
+                                            <li><input type="checkbox" id="critical-care"><label for="critical-care">Critical Care</label></li>
+                                            <li><input type="checkbox" id="neurological-surgery"><label for="neurological-surgery">Neurological Surgery</label></li>
+                                       </ul>
+                                    </div>
+                                     <!--end diseases column first-->
+
+                                    <!--diseases column second-->
+                                    <div class="col-md-4">
+                                       <ul class="list-unstyled disease-list">
+                                            <li><input type="checkbox" id="psychiatry-dermatology"><label for="psychiatry-dermatology">Psychiatry Dermatology</label></li>
+                                            <li><input type="checkbox" id="neurology"><label for="neurology">Neurology</label></li>
+                                            <li><input type="checkbox" id="pulmonology"><label for="pulmonology">Pulmonology</label></li>
+                                            <li><input type="checkbox" id="emergency-medicine"><label for="emergency-medicine">Emergency Medicine</label></li>
+                                            <li><input type="checkbox" id="obstetrics-gynecology"><label for="obstetrics-gynecology">Obstetrics &amp; Gynecology</label></li>
+                                            <li><input type="checkbox" id="radiology"><label for="radiology">Radiology</label></li>
+                                            <li><input type="checkbox" id="endocrinology"><label for="endocrinology">Endocrinology, Diabetes &amp; Metabolism</label></li>
+                                            <li><input type="checkbox" id="oncology-cancer"><label for="oncology-cancer">Oncology-Cancer</label></li>
+                                            <li><input type="checkbox" id="rheumatology"><label for="rheumatology">Rheumatology</label></li>
+                                            <li><input type="checkbox" id="otolaryngology"><label for="otolaryngology">ENT/Otolaryngology</label></li>
+                                            <li><input type="checkbox" id="Ophthalmology"><label for="Ophthalmology">Ophthalmology</label></li>
+                                            <li><input type="checkbox" id="sleep-medicine"><label for="sleep-medicine">Sleep Medicine</label></li>
+                                            <li><input type="checkbox" id="family-medicine"><label for="family-medicine">Family Medicine</label></li>
+                                            <li><input type="checkbox" id="oral-maxillofacial"><label for="oral-maxillofacial">Oral &amp; Maxillofacial</label></li>
+                                       </ul>
+                                    </div>
+                                    <!--end diseases column second-->
+
+                                    <!--diseases column third-->
+                                    <div class="col-md-4">
+                                       <ul class="list-unstyled disease-list">
+                                             <li><input type="checkbox" id="surgery"><label for="surgery">Surgery</label></li>
+                                             <li><input type="checkbox" id="general-practice"><label for="general-practice">Family/General Practice</label></li>
+                                             <li><input type="checkbox" id="orthopedic"><label for="orthopedic">Orthopedic</label></li>
+                                             <li><input type="checkbox" id="urology"><label for="urology">Urology</label></li>
+                                             <li><input type="checkbox" id="gastroenterology"><label for="gastroenterology">Gastroenterology</label></li>
+                                             <li><input type="checkbox" id="pain-management"><label for="pain-management">Pain Management</label></li>
+                                             <li><input type="checkbox" id="other"><label for="other">Other</label></li>
+                                             <li><input type="checkbox" id="geriatrics"><label for="geriatrics">Geriatrics</label></li>
+                                             <li><input type="checkbox" id="palliative"><label for="palliative">Palliative </label></li>
+                                             <li><input type="checkbox" id="hospice"><label for="hospice">Care/Hospice</label></li>
+                                             <li><input type="checkbox" id="hepatology"><label for="hepatology">Hepatology</label></li>
+                                             <li><input type="checkbox" id="pathology"><label for="pathology">Pathology</label></li>
+                                       </ul>
+                                    </div>
+                                    <!--end diseases column third-->
+                                </div>
+                                <!--end row-->
+                                    <button class="btn btn-default pull-right bottom-right-element">Save</button>
+
+                                <div class="hrline">&nbsp;</div>
+
+                                <div class="medical-concerns">
+                                        <h4 class="pageheader4 display-inline-block theme-color">Tell us more about your medical concerns...</h4>
+                                        <a href="javascript:void(0)" class="toggle-handler"><i class="caret big-caret pull-right"></i></a>
+                                </div>
+                                
+                                <!--toggle-wrapper-->
+                                <div class="toggle-wrapper display-none">
+                                    <p>For your benefit, let us know your health concerns or interests by searching for and selecting 1 - 30 tags from the fields below. <br/>
+                                    The more we know, the easier it will be for us to provide you with the most relevant specialists and content.</p>
+
+                                <!--medical concerns-tab-->
+                                 
+                                   <div class="medical-concerns-tabs">
+
+                                      <!-- Nav tabs -->
+                                      <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active"><a href="#diseases" aria-controls="diseases" role="tab" data-toggle="tab">Diseases</a></li>
+                                        <li role="presentation"><a href="#symptoms" aria-controls="symptoms" role="tab" data-toggle="tab">Symptoms</a></li>
+                                        <li role="presentation"><a href="#medication" aria-controls="medication" role="tab" data-toggle="tab">Medication</a></li>
+                                        <li role="presentation"><a href="#test-procedures" aria-controls="test-procedures" role="tab" data-toggle="tab">Test &amp; Procedures</a></li>
+                                      </ul>
+
+                                      <!--mediacal concerns Tab panes -->
+                                      <div class="tab-content">
+
+                                            <!--medical-concern Diseases-->
+                                            <div role="tabpanel" class="tab-pane active" id="diseases">
+
+                                                <!--search part on LHS-->
+                                                <div class="col-md-6">
+                                                    <h3 class="pageheader4">Search</h3>
+                                                    
+                                                   	<!--search form-->
+                                                    <form class="form">
+                                                        <div class="form-group">
+                                                            
+                                                            <div class="col-md-9 col-xs-12 no-padding">
+                                                                <input type=type="text" class="form-control" placeholder="allergic">
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                    <!--end serch form-->
+                                                    
+                                                </div>
+                                                <!--end search part on LHS-->
+
+                                                <!--My diseaseas part on RHS-->
+                                                <div class="col-md-6 no-padding">
+                                                    <h3 class="pageheader4">My Diseases</h3>
+                                                    
+                                                    <ul class="my-diseases-list">
+                                                    
+                                                    <li>
+                                                    <div class="col-xs-10"><label> Allergic Rhinitis (Hay Fever)</label></div>
+                                                    <div class="col-xs-2 text-right"><a href="javascript:void(0)"><img src="images/delete-img.png"/></a></div>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                    <div class="col-xs-10"><label> Costochondritis and Tietze Syndrome</label></div>
+                                                    <div class="col-xs-2 text-right"><a href="javascript:void(0)"><img src="images/delete-img.png"/></a></div>
+                                                    </li>
+                                                    
+                                                    <li>
+                                                    <div class="col-xs-10"><label> Allergic Rhinitis (Hay Fever)</label></div>
+                                                    <div class="col-xs-2 text-right"><a href="javascript:void(0)"><img src="images/delete-img.png"/></a></div>
+                                                    </li>
+                                                    
+                                                   </ul>
+
+                                                </div>
+                                                <!--end My diseaseas part on RHS-->
+
+                                            </div>
+                                            <!--end medical-concern Diseases-->
+
+                                            <!--medical-concern Symptoms-->
+                                            <div role="tabpanel" class="tab-pane" id="symptoms">symptoms</div>
+                                            <!--end medical-concern Symptoms-->
+
+                                            <!--medical-concern Medication-->
+                                            <div role="tabpanel" class="tab-pane" id="medication">medication</div>
+                                            <!--end medical-concern Medication-->
+
+                                            <!--medical-concern Test and Procedures-->
+                                            <div role="tabpanel" class="tab-pane" id="test-procedures">Test &amp; Procedures</div>
+                                            <!--end medical-concern Test and Procedures-->
+
+                                      </div>
+
+                                    </div>
+                                    <!--end medical concerns-tab-->
+                                    
+                                   </div>
+                                    <!--end of toggle pane-->
+                                
+
+
+
+
+
+                                </div>
+                                <!--end second pane-->
+
+                                <div role="tabpanel" class="tab-pane" id="my-health-data">My Health Data</div>
+                                <div role="tabpanel" class="tab-pane" id="system-test">System Test</div>
+
+                              </div>
+                              <!--end Tab panes-->
+
+                        </div>
+
+                        <!--end col-md-12-->
+
+                   
+
+                </div>
+                <!--end of content part-->
+
+                <div class="clearfix">&nbsp;</div>
+                <!--footer-->
+                <div class="container-fluid footer">
+                    <div class="container">
+                        <!--footer list-->
+                        <div class="display-inline-block">
+                            <ul class="footerlist list-inline pull-left">
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Press</a></li>
+                                <li><a href="#">Our Leadership</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Terms and Privacy</a></li>
+                                <li><a href="#">Policy</a></li>
+                            </ul>
+                        </div>
+                        <!--end footer list-->
+                        <div class="display-inline-block copyright pull-right">
+                            &copy; 2011 2nd.MD, All Rights Reserved
+                        </div>
+                    </div>
+                </div>
+                <!--end footer-->
+                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+                <script src="js/jquery-1.11.3.min.js"></script>
+                <!-- Include all compiled plugins (below), or include individual files as needed -->
+                <script src="js/bootstrap.js"></script>
+                <script src="js/layout.js"></script>
+            </body>
+        </html>
