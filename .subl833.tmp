@@ -91,19 +91,9 @@
     <!--start of content part-->
     <div class="container-fluid main-container">
         <div class="dashboard-main-image banner-img col-md-12 col-sm-12 col-xs-12 pull-left">
-            <img src="images/climb-image.png" class="climb-banner">
-            <label class="best-doctor-label col-sm-5 col-md-3">What would you ask the world's best doctors ?</label>
-            <div class="col-md-4 col-sm-6 col-xs-8 banner-label">
+            <div class="col-md-4 banner-label">
             	Go straight to the world's best medical specialist for personalized second opinions by phone or video.
-                <img class="collapse-btn-expand" src="images/toggle-expand-btn.png" data-toggle="collapse" data-target="#collapse-banner">
-
-                 <div id="collapse-banner" class="collapse-banner-content collapse">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </div>
             </div>
-             <button type="button" class="btn btn-default get-answer">Get Answer</button>
         </div>    
 
         <div class="content-section col-md-12 col-xs-12 pull-left">
@@ -183,7 +173,7 @@
                         <div class="item">
                            <div class="text-center col-md-3 col-xs-6">
                                 <a href="#">
-                                    <img src="images/doctor/alexander.jpg" class="image-circle" />
+                                    <img src="images/doctor/alex.jpg" class="image-circle" />
                                     <label>Alexander Khoruts, MD </label>
                                     <label>Pioneer in <span>Digestive Problems</span></label>
                                 </a>
@@ -193,7 +183,7 @@
                         <div class="item">
                            <div class="text-center col-md-3 col-xs-6">
                                 <a href="#">
-                                    <img src="images/doctor/ash.jpg" class="image-circle" />
+                                    <img src="images/Daphne.png" class="image-circle" />
                                     <label>Ash Tewari, MD</label>
                                     <label>Pioneer in <span>Prostate Cancer</span></label>
                                 </a>
