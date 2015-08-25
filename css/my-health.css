@@ -69,10 +69,7 @@ font-family: "HelveticaNeueLight", Helvetica, Arial, sans-serif;
 }
 
 
-.small-text-info{
-	color:#777777;
-	font-size: 13px;
-}
+
 .page-para2{
 	color:#3c3c3b;
 	font-size: 18px;
@@ -84,10 +81,6 @@ font-family: "HelveticaNeueLight", Helvetica, Arial, sans-serif;
 	border-bottom:1px solid #e2e2e2;
 	clear:both;
 	margin:55px 15px 20px 15px;
-}
-
-.borderbox{
-	border:1px solid #e8e8e8;
 }
 
 .myhealth-tab-content .borderbox{
@@ -164,9 +157,7 @@ margin:0px 15px;
 	line-height: 24px;
 }
 
-.bottom-right-element{
-	margin:85px 0px 10px 0px;
-}
+
 
 .bottom-right-element p{
 	margin:0px;

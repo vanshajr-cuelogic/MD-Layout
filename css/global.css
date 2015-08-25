@@ -29,17 +29,7 @@ a:hover,a:focus, a:link,a:visited{
 	text-decoration: none;
 }
 
-.display-none{
-	display: none;
-}
 
-.display-block{
-	display:block;
-}
-
-.margin-none{
-	margin: 0;
-}
 
 /*header*/
 .header{    
@@ -278,9 +268,7 @@ font-weight: 500;
     border:none;
 }
 
-.margin-top25{
-	margin: 25px 0px 0px 0px;
-}
+
 
 
 .uppercase{
@@ -293,12 +281,7 @@ text-transform: uppercase;
 
 
 
-.padding25{
-	padding:25px;
-}
-.padding20{
-	padding:20px;
-}
+
 
 
 .theme-color{
@@ -324,9 +307,7 @@ text-transform: uppercase;
     height: 3px;
 }
 
-.no-padding{
-	padding:0px;
-}
+
 
 .customform .form-control {
 width:100%;
@@ -343,9 +324,10 @@ width:100%;
     margin-bottom: 15px;
 }
 
-.margin-left15{
-	margin-left: 15px;
+.no-padding{
+    padding:0px;
 }
+
 
 .media-body{
         font-size: 14px
@@ -353,13 +335,65 @@ width:100%;
 
 .visible-mobile{
     display: none;
-   }
+}
 .hidden-mobile{
     display: block;
-   }
+}
 
 .theme-color-caret{
     color: #FF705B;
+}
+
+.borderbox{
+border:1px solid #e8e8e8;
+}
+
+.visibility-hidden{
+visibility:hidden;
+}
+
+.bottom-right-element{
+	margin:85px 0px 10px 0px;
+}
+
+.small-text-info{
+	color:#777777;
+	font-size: 13px;
+}
+.bottom-right-element p {
+    margin: 0px;
+}
+
+
+.display-none{
+    display: none;
+}
+
+.display-block{
+    display:block;
+}
+
+.margin-none{
+    margin: 0;
+}
+
+.margin-left15{
+    margin-left: 15px;
+}
+
+.padding25{
+    padding:25px;
+}
+.padding20{
+    padding:20px;
+}
+
+.margin-top25{
+    margin: 25px 0px 0px 0px;
+}
+
+.margin-top10{
+    margin:10px 0px 0px 0px;
 }
 
 
@@ -555,6 +589,8 @@ width:100%;
     width: 70px;
     height: 70px;
     }
+	
+
 
 
 }

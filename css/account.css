@@ -1,0 +1,55 @@
+h2.pageheader1{
+font-size: 28px;
+margin-top:10px;
+padding-bottom:25px;
+font-weight: normal;
+border-bottom:1px solid #e5e5e5;
+padding-left:15px;
+}
+
+.tab-heading {
+    background-color: #F7F7F7;
+    margin: 10px 8px 0px 9px;
+    padding: 10px 15px;
+    color: #000;
+}
+
+.tab-heading h4.pageheader4 {
+    font-size: 21px;
+    font-family: "HelveticaNeueLight", Helvetica, Arial, sans-serif;
+    text-align: left;
+    margin: 0px;
+}
+
+.margin-side8{
+margin:0px 8px;	
+}
+
+.borderbox{
+	overflow: hidden;
+}
+
+.accountform .form-group label{
+	color: #3c3c3b;
+    font-size: 15px;
+    font-weight: normal;
+	display: block;
+}
+
+.borderbox{
+overflow:hidden;
+}
+
+.accountform p {
+    font-size: 14px;
+    margin: 0px 8px;
+	font-weight:300;
+}
+
+.accountform div p {
+    font-size: 13px;
+}
+
+.accountFormToggle div{
+    padding:0px;
+}
