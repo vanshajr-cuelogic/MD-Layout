@@ -10,13 +10,6 @@
     font-style:normal;
     font-weight:normal;
 }
-@font-face {
-    font-family: 'BRADHITC';
-    src: url('../fonts/BRADHITC.ttf') format('truetype');
-    font-style:normal;
-    font-weight:normal;
-}
-
 
 
 html{
@@ -403,6 +396,9 @@ visibility:hidden;
     margin:10px 0px 0px 0px;
 }
 
+.thumb-padding{
+    padding-top:15px;
+}
 
 
 /*media query for width  more than 1400px*/
