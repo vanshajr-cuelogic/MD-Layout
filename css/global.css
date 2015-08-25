@@ -29,8 +29,27 @@ a:hover,a:focus, a:link,a:visited{
 	text-decoration: none;
 }
 
-
-
+/*Video Model box*/
+.modal-header, .close {
+    color: white !important;
+    font-size: 30px;
+    position: absolute;
+    right: -3%;
+    text-align: center;
+    top: -5%;
+    width: 6%;
+}
+.modal-footer {
+    background-color: #f9f9f9;
+}
+.modal-content{
+    background: #000;
+}
+.close{
+    opacity: 1;
+    z-index:2;
+    cursor: pointer;
+}
 /*header*/
 .header{    
     background-image:  url('../images/header-bg.png');

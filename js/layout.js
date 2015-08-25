@@ -39,25 +39,53 @@ $(document).ready(function() {
 
      $("#myBtn").click(function(){
         $("#myModal").modal();
-    });
+     });
    
      $("#video-1").click(function(){
+        $(".modal-backdrop").show();
+        $("#myModal").show();
         $("#modal-video2").hide();
         $("#modal-video1").show();
-          $("#video-one").attr('src','http://www.youtube.com/embed/T39hYJAwR40?autoplay=1');
+        $("#video-one").attr('src','http://www.youtube.com/embed/T39hYJAwR40?autoplay=1');
      });
 
      $("#video-2").click(function(){
+         $(".modal-backdrop").show();
+        $("#myModal").show();
          $("#modal-video1").hide();
          $("#modal-video2").show();
          $("#video-two").attr('src','http://www.youtube.com/embed/T39hYJAwR40?autoplay=1');
      });
 
      $("#myModal").click(function(){
+        video_stop();
+     })
+     $("#close-video").click(function(){
+        video_stop();        
+     });
+
+     /*Global function for hidding/Stop the Video functionality*/
+     function video_stop(){
+        /*Hide Box*/
+         $("#myModal").hide();
+         $(".modal-backdrop").hide();
+        /*Stop Video*/
         $("#video-two").attr('src','http://www.youtube.com/embed/T39hYJAwR40?autoplay=0');
         $("#video-one").attr('src','http://www.youtube.com/embed/T39hYJAwR40?autoplay=0');
-     })
+        $("#video-speciality").attr('src','http://www.youtube.com/embed/T39hYJAwR40?autoplay=0');
+     }
 /*Dashboard End*/
+
+
+/*Browse Doctor*/
+
+  $(".specialist-video").click(function(){
+      $(".modal-backdrop").show();
+      $("#myModal").modal();
+       $("#myModal").show();
+      $("#modal-video-speciality").show();
+      $("#video-speciality").attr('src','http://www.youtube.com/embed/T39hYJAwR40?autoplay=1');
+     });
 
 });
 
