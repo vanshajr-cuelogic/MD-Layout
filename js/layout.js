@@ -3,6 +3,7 @@ $(document).ready(function() {
     toggleFn();
     mobileMenu();
     myhealthDataTextbox();
+    accountFormToggle();
 
     /*Doctor Dashboard*/
     var device_width = $(window).width();
@@ -134,3 +135,13 @@ function mobileMenu() {
     });
 }
 /*end code for toggle navbar*/
+
+
+/*accoutform toggle*/
+function accountFormToggle(){
+$('.accountFormToggleBtn').click(function() {
+        $('.accountFormToggle').slideToggle();;
+    $('.accountFormToggleBtn').slideToggle();;    
+    });
+}
+/*end accountform toggle*/
