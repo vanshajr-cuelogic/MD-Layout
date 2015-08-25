@@ -1,0 +1,106 @@
+.page-head{
+	border-bottom: 1px solid #ccc;
+}
+.page-head h2{
+font-size:25px;	
+}
+.speciality-header{
+	background: #f7f7f7;
+	font-family: "HelveticaNeueLight", Helvetica, Arial, sans-serif;
+	margin: 0;
+    padding: 10px 15px;
+    font-size: 18px;
+    margin-top:25px;
+    border:1px solid #ccc;
+    border-bottom: 0;
+}
+.speciality-detail{
+	padding:0;
+	border:1px solid #ccc;
+	border-top: 0;
+	/*position: relative;*/
+}
+.left-panel{
+		padding: 0;
+		border-right: 1px solid #ccc;
+}
+.left-panel-section{
+	width: 100%;
+	margin: 0
+}
+.left-panel-section span{
+	border:1px solid #ccc;
+    padding: 25px;
+    border-bottom:0;
+    border-right: 0;
+    border-left: 0;
+}
+.left-panel-section span > h4{
+	 font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+	 color:#00a1e0;
+}
+.left-panel-section span > ul{
+	 padding-left: 15px;
+	 font-family: "HelveticaNeueLight", Helvetica, Arial, sans-serif;
+	 font-size: 15px;
+}
+.left-panel-section span > ul > a{
+	color: #ff543b;
+	font-weight: bold;
+}
+.right-panel{
+	border-left:0;
+	border-top: 1px solid #ccc;
+	position: absolute;
+    right: 0;
+}
+.video-section{
+	margin: 32px 0;
+	padding: 0;
+}
+.right-content-section{
+	text-align: center;
+	font-family: "HelveticaNeueLight", Helvetica, Arial, sans-serif;
+}
+.right-content-section label:last-child{
+	color:#00a1e0;
+}
+.content-section{
+	margin-bottom: 8%;
+}
+
+
+/*media query for width  between 768px and 992px*/
+@media(min-width: 768px) and (max-width: 992px){
+	.left-panel{
+		position: relative;
+		border:1px solid #ccc;
+		border-top: 0;
+	}
+	.right-panel{
+		position: relative;
+		border:1px solid #ccc;
+		border-bottom: 0;
+	}
+	.right-content-section{
+		text-align: left;
+		padding: 0;
+	}
+	.specialist-video{
+		position: absolute;
+	}
+	.left-panel-section span > ul{font-size: 14px;}
+}
+
+@media(max-width: 767px){
+	.left-panel-section h4{font-size: 16px;}
+	.right-panel{position: relative;margin:10px 0; border:1px solid #ccc;}
+	.left-panel-section span{padding: 10px;border:1px solid #ccc;}
+	.page-head{margin:15px;}
+	.page-head h2{font-size: 18px;}
+	.right-content-section{text-align: left;}
+	.specialist-video{padding: 0;}
+	.left-panel{border:0;}
+	.footer{position: relative;}
+	.speciality-header{font-size: 15px;}
+}
