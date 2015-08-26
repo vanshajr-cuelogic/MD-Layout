@@ -11,7 +11,6 @@
     font-weight:normal;
 }
 
-
 html{
   margin:0;
   min-height:100%;
@@ -29,8 +28,30 @@ a:hover,a:focus, a:link,a:visited{
 	text-decoration: none;
 }
 
-
-
+/*Video Model box*/
+.modal-header{
+    color: white !important;
+    font-size: 30px;
+    position: absolute;
+    right: -3%;
+    text-align: center;
+    top: -5%;
+    width: 6%;
+}
+.modal-footer {
+    background-color: #f9f9f9;
+}
+.modal-content{
+    background: #000;
+}
+.close{
+    opacity: 1;
+    z-index:2;
+    cursor: pointer;
+    right:0%;
+    top:0%;
+    position: absolute;
+}
 /*header*/
 .header{    
     background-image:  url('../images/header-bg.png');
@@ -578,6 +599,8 @@ visibility:hidden;
 .footerlist li a{
     font-size: 12px;
 }
+.modal-dialog{margin:25px;}
+.modal{top:3%;}
 
 }
 

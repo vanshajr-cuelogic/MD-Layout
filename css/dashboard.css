@@ -1,4 +1,9 @@
-
+@font-face {
+    font-family: 'BRADHITC';
+    src: url('../fonts/BRADHITC.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+}
 .main-container {
     margin: 0;
     padding: 0;
@@ -212,15 +217,6 @@ h2 > .primary-text-highlight {
     clear: both;
     float: none;
     margin: 0 auto;
-}
-.modal-header, h4, .close {
-    background-color: #5cb85c;
-    color: white !important;
-    font-size: 30px;
-    text-align: center;
-}
-.modal-footer {
-    background-color: #f9f9f9;
 }
 .thumbnail {
     padding: 2px !important;
