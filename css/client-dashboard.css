@@ -19,14 +19,9 @@ margin-bottom: 0px;
     border-radius:10px;
 }
 
-.comments{
-	border:thin solid #e8e8e8;
-}
-
 .media-padding {
     padding: 0px 0px 20px 0px;
     margin: 20px 15px 0px 15px;
-    border-bottom: 1px solid #e5e5e5;
 }
 
 .media-padding:first-child {
@@ -41,7 +36,6 @@ margin-bottom: 0px;
 .suggested-doctor-padding{
 	padding: 0px 0px 25px 0px;
 	margin: 25px 20px 0px 20px;
-    border-bottom: 1px solid #e5e5e5;
 }
 
 .suggested-doctor-padding:first-child {
@@ -68,15 +62,6 @@ margin-bottom: 0px;
 
 .appointments-padding{
 	padding:10px 20px;
-	border-bottom: thin solid #e3e3e3;
-}
-
-.appointments-background{
-	background-color: #f7f7f7;
-}
-
-.suggested-doctor-img{
-	border:thin solid #858585;
 }
 
 .media-border{
@@ -94,10 +79,6 @@ margin-bottom: 0px;
 }
 
 .doctor-box-alignment:first-child{
-    border-bottom:1px solid #ccc;
-    -moz-box-shadow:0 1px 0px #ddddde;
-	-webkit-box-shadow:0 1px 0px #ddddde;
-	box-shadow:0 1px 0px #ddddde;
     margin: 0px 25px 0px 25px;
 
 }

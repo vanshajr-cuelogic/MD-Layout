@@ -1,0 +1,179 @@
+body {
+  color: #333;
+  background-color: #fff;
+}
+
+.mainmenu li a img{
+border: 1px solid #d6d6d6;
+background-color:#ffffff;
+}
+
+.mainmenu > li > a.active span{
+    color: #00a1e0;
+}
+
+.mainmenu li a span{
+    color:#aaafb0;
+}
+
+.mainmenu li a span.counter {
+    background-color: #ff705b;
+    color: #fff;
+}
+
+.mainmenu li ul.has-sub{
+    background-color: #fff;
+    -moz-box-shadow: 0 2px 6px #999, inset 0 2px 3px #e3e3e3;
+    -webkit-box-shadow: 0 2px 6px #999, inset 0 2px 3px #e3e3e3;
+    box-shadow: 0 2px 6px #999, inset 0 2px 3px #e3e3e3;
+}
+
+.mainmenu li ul.has-sub li a{
+    border-bottom: 1px solid #dfdee0;
+    color: #4d545e;
+}
+
+.mainmenu li ul.has-sub.small-menu li a{
+    border-bottom: 1px solid #dfdee0;
+}
+
+.mainmenu li:nth-child(4) a img{
+border: 1px solid #747f8d;
+}
+
+.theme-color-caret{
+    color: #FF705B;
+}
+
+.doctor-box-alignment:first-child{
+    border-bottom:1px solid #ccc;
+    -moz-box-shadow:0 1px 0px #ddddde;
+    -webkit-box-shadow:0 1px 0px #ddddde;
+    box-shadow:0 1px 0px #ddddde;
+}
+
+.pageheader1{
+color:#3c3c3b;
+}
+
+.pageheader2 a{
+color:#00a1e0;
+}
+
+.pageheader3{
+color:#3c3c3b;
+}
+
+.pageheader4{
+color:#3c3c3b;
+}
+
+.hrline{
+  border-bottom:1px solid #e2e2e2;
+}
+
+.theme-color{
+    color:#00a1e0;
+}
+
+.btn-default,.btn-default:focus,.btn-default:hover,.btn-default:active{
+  color: #fff;
+  background-color: #ff705b;
+}
+
+.btn-primary,.btn-primary:focus,.btn-primary:hover,.btn-primary:active{
+    background-color: #ababab;
+    color:#fff;
+}
+
+.borderbox,.comments{
+    border:thin solid #e8e8e8;
+}
+
+.media-padding {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.appointments-background{
+    background-color: #f7f7f7;
+}
+
+.appointments-padding{
+    border-bottom: thin solid #e3e3e3;
+}
+
+.suggested-doctor-img{
+    border:thin solid #858585;
+}
+
+.color-orange,.theme-color2{
+    color:#c11900!important;
+}
+
+.suggested-doctor-padding{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+
+.nav-tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+}
+
+.light-border-bottom{
+    border-bottom:1px solid #e5e5e5;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #ddd;
+}
+
+ul.nav-tabs > li >a{
+color:#3c3c3b;
+background-color: #e7e7e7;
+}
+
+.tab-content{
+  border:solid 1px #e8e8e8;
+}
+
+.tab-heading {
+background-color: #F7F7F7;
+color:#000;
+}
+
+.small-text-info{
+    color:#777777;
+}
+
+.myhealth-docs li{
+    border-bottom:1px solid #e2e2e2;
+}
+
+.myhealth-docs li .edit-name a{
+    background: #ccc;
+}
+
+.disease-list li label{
+    color:#000;
+}
+
+.medical-concerns-tabs ul li.active a{
+color:#00A1E0;
+} 
+
+.my-diseases-list li{
+    border-bottom:1px solid #e2e2e2;
+}
+
+.theme-background{
+  background-color: #ebebeb;
+}
+
