@@ -11,6 +11,7 @@
         <link href="css/reset.css" rel="stylesheet">
         <link href="css/global.css" rel="stylesheet">
         <link href="css/account.css" rel="stylesheet">
+        <link href="css/theme.css" rel="stylesheet">
         
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -103,7 +104,7 @@
                                         <li>                                            
                                             <a href="#">Reports</a>
                                             <a href="#">Appointments</a>
-                                            <a href="#" class="color-orange">Logout</a>
+                                            <a href="#" class="theme-color2">Logout</a>
                                         </li>
                                     </ul>
                             </li> -->
@@ -187,7 +188,7 @@
                                                   </div>
 
                                                   <div class="form-group">
-                                                    <label for="exampleInputPassword1">Date of birth<br/>(You must be above 18 years of age to join 2nd.MD)</label>
+                                                    <label for="exampleInputPassword" class="display-block">Date of birth<br/>(You must be above 18 years of age to join 2nd.MD)</label>
                                                     
                                                     
                                                     <div class="col-xs-4 no-padding">
@@ -327,7 +328,7 @@
                                                 <div class="clearfix">&nbsp;</div>
                                                 
                                                 <!--footer info secure part-->
-                                                    <div class="col-md-4 pull-right bottom-right-element no-padding">
+                                               <!--  <div class="col-md-4 pull-right bottom-right-element no-padding">
                                                    <div class="pull-right">
                                                     <p class="small-text-info">Your Information on 2nd.Md is protected by:</p>
                                                      <span><img src="images/securedby1.png"></span>
@@ -335,8 +336,7 @@
                                                      <span><img src="images/securedby3.png"></span>
                                                      <span><img src="images/securedby4.png"></span>
                                                    </div>  
-
-                                            </div> 
+                                                </div>  -->
                                                 <!--end footer info secure part-->
                                                 
                                                 
@@ -353,14 +353,22 @@
                                 <!--end row-->
                                   
 
-                                <div class="hrline">&nbsp;</div>
+                                <!-- <div class="hrline">&nbsp;</div> -->
 
                                 <!--<div class="medical-concerns">
                                         <a href="javascript:void(0)" class="toggle-handler"><h4 class="pageheader4 display-inline-block theme-color">Tell us more about your medical concerns...</h4></a>
                                 </div>-->
                                 
                                
-                                
+                                                 <div class="col-md-4 pull-right bottom-right-element">
+                                                   <div class="pull-right">
+                                                    <p class="small-text-info">Your Information on 2nd.Md is protected by:</p>
+                                                     <span><img src="images/securedby1.png"></span>
+                                                     <span><img src="images/securedby2.png"></span>
+                                                     <span><img src="images/securedby3.png"></span>
+                                                     <span><img src="images/securedby4.png"></span>
+                                                   </div>  
+                                                </div> 
 
 
 
@@ -369,7 +377,208 @@
                                 </div>
                                 <!--end first pane for general-->
 
-                                <div role="tabpanel" class="tab-pane" id="notifications">Notifications</div>
+                                <!--second pane for notifications-->
+                                <div role="tabpanel" class="tab-pane" id="notifications">
+
+                                 <div class="tab-heading">
+                                        <h4 class="pageheader4">Email Communication Preferences</h4>
+                                 </div>
+
+                                <div class="row borderbox no-padding margin-side8"> 
+                                 
+                                  <form class="accountform margin-top25">
+                                    <div class="col-md-12">
+                                      <div class="form-group">
+                                            <label>You will receive information about your 2nd.MD sessions by email. <a href="javascript:void(0)" class="theme-color formNotificationToggleClick">Change</a></label>
+
+                                            <div class="formNotificationToggleEle display-none">
+
+                                               <div class="formNotificationToggleEleNested theme-background">
+                                                <p class="pagepara padding15">
+                                                  Information contained in email messages may be privileged and confidential. There is  some risk that protected health information contained in such email may be disclosed to, intercepted by, or read by, unauthorized third parties.<br/>
+
+                                                  Please be aware that email is not a secure form of communication and can be misdirected or intercepted in transmission. By agreeing to allow the use of email as a method of communication, this indicates that you acknowledge and accept the possible risks associated with such communication. Please consider communicating sensitive information by logging in to your account at https://beta.2nd.md/. If you wish to revoke your consent to email, please send a written note revoking your previous consent to support@2nd.md.<br>
+                                                </p>
+                                               </div>
+
+
+                                                <p class="pagepara formNotificationToggleElepara">Brent, would you like us to communicate with you about your 2nd.MD sessions by email? Please indicate your <a href="#" class="theme-color formToggleClickNested">informed consent</a> by clicking ‘I Accept’.</p>
+
+                                                <div class="formNotificationToggleSubForm display-none">
+                                                   <p class="pagepara">Brent, you are declining informed consent by email.<br/>
+                                                  As an alternative, please provide us with a contact number where you can best be reached.</p>
+                                                  <form>
+                                                    <div class="form-group">
+                                                      <label>Phone Number</label>
+                                                      <input type="text">
+                                                    </div>
+                                                  </form>
+                                                  
+                                                </div>
+
+                                                <button class="btn btn-default">I Accept</button>
+                                                <button class="btn btn-primary formNotificationToggleClickBtn">I Decline</button>
+                                                <button class="btn btn-primary formNotificationToggleClickBackBtn display-none">Back</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                      
+                                  </form>
+
+                                 <!--  <div class="hrline">&nbsp;</div> -->
+
+                                    <!-- <h4 class="pageheader5 padding15">Notification Settings</h5> -->
+                                     
+
+                                      
+                                </div> 
+
+
+                            <!--second form-->
+                                <div class="tab-heading">
+                                        <h4 class="pageheader4">Notification Settings</h4>
+                                </div>
+
+                                 <div class="row borderbox no-padding margin-side8"> 
+                                 
+                                  <form class="accountform margin-top25">
+
+                                    <div class="col-md-12">
+                                      <div class="form-group">
+                                        <p class="content-para">Phone number for SMS: 8323162402 &nbsp;<a href="javascript:void(0)" class="theme-color">Update</a></p>
+
+                                        <div class="clearfix">&nbsp;</div>
+
+                                        <ul class="list-unstyled">
+
+                                           <!--row-->
+                                                <li>
+                                                    <div class="col-md-6 col-xs-4">
+                                                        <label for=""><strong>Account Setup</strong></label>
+                                                    </div>
+
+                                                    <div class="col-md-6 col-xs-8 text-center">
+                                                      <div class="form-group">
+                                                        <div class="col-xs-4"><label><strong>2nd.MD Inbox</strong></label></div>
+                                                        <div class="col-xs-4"><label><strong>Email</strong></label></div>
+                                                        <div class="col-xs-4"><label><strong>SMS</strong></label></div>
+                                                      </div>
+                                                    </div>
+
+                                                </li>
+                                                <!--end row-->
+
+                                                <div class="hrline">&nbsp;</div>
+
+                                               <!--row-->
+                                                <li>
+                                                    <div class="col-md-6 col-xs-4">
+                                                        <label for="">Account Setup<br/><small>(Account setup and changes)</small></label>
+                                                    </div>
+
+                                                    <div class="col-md-6 col-xs-8 text-center">
+                                                      <div class="form-group">
+                                                        <div class="col-xs-4"><input type="checkbox" checked disabled></div>
+                                                        <div class="col-xs-4"><input type="checkbox" checked disabled></div>
+                                                        <div class="col-xs-4"><input type="checkbox"></div>
+                                                      </div>
+                                                    </div>
+
+                                                </li>
+                                                <!--end row-->
+
+
+                                                <div class="hrline">&nbsp;</div>
+
+                                               <!--row-->
+                                                <li>
+                                                    <div class="col-md-6 col-xs-4">
+                                                        <label for="">Appointment Information<br/><small>(All information regarding appointments)</small></label>
+                                                    </div>
+
+                                                    <div class="col-md-6 col-xs-8 text-center">
+                                                      <div class="form-group">
+                                                        <div class="col-xs-4"><input type="checkbox" checked></div>
+                                                        <div class="col-xs-4"><input type="checkbox" checked disabled></div>
+                                                        <div class="col-xs-4"><input type="checkbox"></div>
+                                                      </div>
+                                                    </div>
+
+                                                </li>
+                                                <!--end row-->
+
+                                                <div class="hrline">&nbsp;</div>
+
+                                               <!--row-->
+                                                <li>
+                                                    <div class="col-md-6 col-xs-4">
+                                                        <label for="">Password Reset<br/><small>(Alerts for when your password is reset)</small></label>
+                                                    </div>
+
+                                                    <div class="col-md-6 col-xs-8 text-center">
+                                                      <div class="form-group">
+                                                        <div class="col-xs-4"><input type="checkbox" checked></div>
+                                                        <div class="col-xs-4"><input type="checkbox" checked></div>
+                                                        <div class="col-xs-4"><input type="checkbox"></div>
+                                                      </div>
+                                                    </div>
+
+                                                </li>
+                                                <!--end row-->
+
+                                                <div class="hrline">&nbsp;</div>
+
+                                               <!--row-->
+                                                <li>
+                                                    <div class="col-md-6 col-xs-4">
+                                                        <label for="">System Messages<br/><small>(Important messages from 2nd.MD)</small></label>
+                                                    </div>
+
+                                                  <div class="col-md-6 col-xs-8 text-center">
+                                                      <div class="form-group">
+                                                        <div class="col-xs-4"><input type="checkbox" checked></div>
+                                                        <div class="col-xs-4"><input type="checkbox" checked></div>
+                                                        <div class="col-xs-4"><input type="checkbox" checked></div>
+                                                      </div>
+                                                    </div>
+
+                                                </li>
+                                                <!--end row-->
+
+
+
+
+                                        
+                                            </ul>
+
+
+                                      </div>
+                                    </div>  
+
+                                  </form>
+
+                                 </div>
+                                 <!--end second form--> 
+
+
+                                               <div class="col-md-4 pull-right bottom-right-element">
+                                                   <div class="pull-right">
+                                                    <p class="small-text-info">Your Information on 2nd.Md is protected by:</p>
+                                                     <span><img src="images/securedby1.png"></span>
+                                                     <span><img src="images/securedby2.png"></span>
+                                                     <span><img src="images/securedby3.png"></span>
+                                                     <span><img src="images/securedby4.png"></span>
+                                                   </div>  
+                                                </div> 
+
+                                
+
+
+
+                                </div>
+                                <!--end second pane for notifications-->
+
                                 <div role="tabpanel" class="tab-pane" id="system-test">System Test</div>
 
                               </div>

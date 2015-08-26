@@ -4,6 +4,7 @@ $(document).ready(function() {
     mobileMenu();
     myhealthDataTextbox();
     accountFormToggle();
+    formToggle()
 
     /*Doctor Dashboard*/
     var device_width = $(window).width();
@@ -178,8 +179,37 @@ function mobileMenu() {
 /*accoutform toggle*/
 function accountFormToggle(){
 $('.accountFormToggleBtn').click(function() {
-        $('.accountFormToggle').slideToggle();;
-    $('.accountFormToggleBtn').slideToggle();;    
+        $('.accountFormToggle').slideToggle();
+    $('.accountFormToggleBtn').slideToggle();  
     });
 }
 /*end accountform toggle*/
+
+/*code for account page notification form toggle*/
+function formToggle(){
+$('.formNotificationToggleClick').click(function() {
+        $('.formNotificationToggleEle').slideToggle();
+        $('.formNotificationToggleClick').parent().slideToggle();
+
+        $('formNotificationToggleClickNested').click(function(){
+          $('.formNotificationToggleEleNested').slideToggle();
+        });
+
+        $('.formNotificationToggleClickBtn').click(function(){
+              $('.formNotificationToggleElepara').slideToggle();
+              $('.formNotificationToggleSubForm').slideToggle();
+              $('.formNotificationToggleClickBackBtn').show();
+              $('.formNotificationToggleClickBtn').hide();
+        });
+
+        $('.formNotificationToggleClickBackBtn').click(function(){
+              $('.formNotificationToggleElepara ').slideToggle();
+              $('.formNotificationToggleSubForm').slideToggle();
+              $('.formNotificationToggleClickBackBtn').hide();
+              $('.formNotificationToggleClickBtn').show();
+        });
+        
+    });
+}
+
+/*end code for account page notification form toggle*/

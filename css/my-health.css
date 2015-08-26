@@ -3,15 +3,13 @@ font-size: 28px;
 margin-top:10px;
 padding-bottom:25px;
 font-weight: normal;
-border-bottom:1px solid #e5e5e5;
+
 padding-left:15px;
 }
 
 .tab-heading {
-background-color: #F7F7F7;
 margin: 10px 8px;
 padding: 10px 15px;
-	color:#000;
 }
 
 .tab-heading h4.pageheader4{
@@ -28,7 +26,7 @@ padding: 10px 15px;
 }
 
 h3.pageheader5{
-color: #3C3C3B;
+/*color: #3C3C3B;*/
 font-size: 18px;
 padding: 20px;
 }
@@ -76,12 +74,7 @@ font-family: "HelveticaNeueLight", Helvetica, Arial, sans-serif;
 	padding:20px;
 }
 
-.hrline{
-	height:1px;
-	border-bottom:1px solid #e2e2e2;
-	clear:both;
-	margin:55px 15px 20px 15px;
-}
+
 
 .myhealth-tab-content .borderbox{
 margin:0px 15px;
@@ -99,9 +92,6 @@ margin:0px 15px;
 	display: block;
 }
 .myhealth-docs li{
-	/*margin:0px 30px;
-	padding:20px 0px;*/
-	border-bottom:1px solid #e2e2e2;
 	width:100%;
 	padding:20px 0px;
 	margin: 0px 0px;
@@ -151,7 +141,6 @@ margin:0px 15px;
 }
 .myhealth-docs li .edit-name a{
 	padding: 0 10px;
-	background: #ccc;
 	display: block;
 	height: 24px;
 	line-height: 24px;
@@ -178,7 +167,6 @@ margin-left: 10px;
 .disease-list li label{
 	font-size: 14px;
 	font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
-	color:#000;
 	font-weight: 500;
 }
 
@@ -225,9 +213,6 @@ color:#5b6a7e;
 	border:none;
 }
 
-.medical-concerns-tabs ul li.active a{
-color:#00A1E0;
-} 
 
 .medical-concerns-tabs .tab-content .tab-pane h3.pageheader4{
 	font-size: 21px;
@@ -248,7 +233,6 @@ margin:0px 15px;
 	display: block;
 }
 .my-diseases-list li{
-	border-bottom:1px solid #e2e2e2;
 	width:100%;
 	padding:15px 0px;
 	margin: 0px 0px;
