@@ -1,4 +1,9 @@
-
+@font-face {
+    font-family: 'BRADHITC';
+    src: url('../fonts/BRADHITC.ttf') format('truetype');
+    font-style:normal;
+    font-weight:normal;
+}
 .main-container {
     margin: 0;
     padding: 0;

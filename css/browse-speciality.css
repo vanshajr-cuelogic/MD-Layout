@@ -85,6 +85,7 @@ font-size:25px;
 	.right-content-section{
 		text-align: left;
 		padding: 0;
+		float: right;
 	}
 	.specialist-video{
 		position: absolute;
@@ -98,7 +99,7 @@ font-size:25px;
 	.left-panel-section span{padding: 10px;border:1px solid #ccc;}
 	.page-head{margin:15px;}
 	.page-head h2{font-size: 18px;}
-	.right-content-section{text-align: left;}
+	.right-content-section{text-align: left;font-size: 13px;}
 	.specialist-video{padding: 0;}
 	.left-panel{border:0;}
 	.footer{position: relative;}
