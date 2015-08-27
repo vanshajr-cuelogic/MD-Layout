@@ -104,12 +104,13 @@
 @media(min-width: 768px) and (max-width: 992px){
 	.section-one h2{font-size: 21px;padding: 22px 0;}
 	.sub-header-content{padding: 45px 0 0 22px;}
-	.section-two label{font-size: 18px;}
+	.section-two label{font-size: 18px; padding:50px 0;}
 	.section-two-right button{font-size: 12px;}
 	.content-section label{font-size: 14px;}
 	.content-section ul{padding: 5px 6px;}
 	.content-section label{padding: 5px 6px;}
 	.sub-part-tags li{font-size: 14px;}
+	.section-two-right{padding: 50px 0;}
 }
 
 @media(max-width: 767px){
