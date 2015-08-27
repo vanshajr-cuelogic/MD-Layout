@@ -68,6 +68,7 @@ $(document).ready(function() {
      /*Global function for hidding/Stop the Video functionality*/
      function video_stop(){
         /*Hide Box*/
+        $('body').removeClass('modal-open');
          $("#myModal").hide();
          $(".modal-backdrop").hide();
         /*Stop Video*/
@@ -81,6 +82,15 @@ $(document).ready(function() {
 /*Browse Doctor*/
 
   $(".specialist-video").click(function(){
+      $(".modal-backdrop").show();
+      $("#myModal").modal();
+       $("#myModal").show();
+      $("#modal-video-speciality").show();
+      $("#video-speciality").attr('src','http://www.youtube.com/embed/T39hYJAwR40?autoplay=1');
+     });
+
+
+  $(".sub-header-video").click(function(){
       $(".modal-backdrop").show();
       $("#myModal").modal();
        $("#myModal").show();

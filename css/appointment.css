@@ -124,6 +124,33 @@ color: #00a1e0;
     font-size: 24px;
     padding: 15px 0;
 }
+.upcoming-appointment-list{
+	clear: both;
+	margin:0;
+	padding:0;
+}
+
+.upcoming-appointment-list > ul{
+	padding:0 !important;
+	margin-top:5px;
+}
+.upcoming-appointment-list > ul > li {
+	display: inline-block;
+	padding: 20px 8px;
+	border:none;
+	border-bottom:1px solid #eee;
+}
+.upcoming-appointment-list > ul > li > div:first-child{
+	font-weight:bold;
+}
+.upcoming-appointment-list > ul > li:first-child{
+	border-top:1px solid #eee;
+}
+
+.upcoming-appointment-list > ul > li button{
+	margin:10px 0;
+}
+
 .pending-appointment-list{
 	clear: both;
 	margin:0;
@@ -188,7 +215,7 @@ color: #00a1e0;
 .rating-panel{display: none;}
 .history-panel-internal{display: none !important;}
 }
-@media (max-width: 768px) {
+@media(min-width: 768px) and (max-width: 992px){
 /*History Tab*/
 .history-panel{display: none !important;}
 .form-line-height{text-align:center;}
@@ -199,6 +226,10 @@ color: #00a1e0;
 .page-heading{font-size:28px;}
 .inner-page-title{font-size:22px;}
 .search-btn{float: right !important;}
+.upcoming-appointment-list > ul > li .btn-default, .btn-default:focus, .btn-default:hover, .btn-default:active{padding: 6px;}
+.upcoming-appointment-list > ul > li .btn-default, .btn-default:focus, .btn-default:hover, .btn-default:active{padding: 6px;}
+.appointment-btn-section{padding: 0;}
+.upcoming-appointment-list > ul > li > div:last-child{padding: 0;}
 }
 
 @media (max-width: 767px) {
@@ -225,4 +256,7 @@ color: #00a1e0;
 #history .report-btn{margin-top:15px;}
 .search-btn{margin: 0px !important}
 .history-panel-internal{display: block !important; font-weight: bold !important;}
+.appointment-btn-section{margin:5px 0; text-align: center;}
+.upcoming-appointment-list > ul > li > div:last-child{text-align: center;}
+
 }
