@@ -1,0 +1,84 @@
+.page-heading{
+	border-bottom: 1px solid #ccc;
+	padding:15px;
+}
+.survey-label{
+	font-size: 17px;
+	font-family: "HelveticaNeueLight",helvetica,sans-serif;
+	padding: 20px;
+}
+.survey-label a{
+	color:#f76437;
+	font-weight: bold;
+}
+.content-section{
+	border:1px solid #ccc;
+	padding: 20px;
+	font-size: 17px;
+	margin:15px 0;
+}
+.content-section ul{
+	padding: 0;
+}
+.content-section ul li{
+	list-style-type: none;
+	padding: 20px;
+	border-bottom: 1px solid #ccc;
+}
+.content-section label{
+	width:100%;
+	font-weight: normal;
+}
+.rating li.normal_star {
+    background: rgba(0, 0, 0, 0) url("../images/ratings.png") repeat scroll 0 100px / 29px auto;
+    border: medium none;
+    display: inline-block;
+    margin: 4px;
+    padding: 14px;
+    margin-left: 0;
+}
+.rating li.normal_star:hover {
+    background: url('../images/ratings.png');
+    background-position: 0px 61px;
+    background-size: 28px;
+    cursor: pointer;
+}
+.content-section select,textarea, .check-option{
+	margin: 20px 31px;
+}
+.content-section .form-control{
+	width:96%;
+}
+.content-section ul > li > span {
+	 font-size: 15px;
+     padding-left: 30px;
+}
+.content-section ul > li > span >label{
+	   display: block;
+       margin: 0 32px;
+}
+.content-section ul > li > span > ul{
+	padding-left: 30px;
+}
+.checkbox-inline{
+	display: inline;
+	padding: 0;
+}
+.checkbox-inline input{
+	margin:5px;
+}
+.survey-note h3{font-size: 15px;font-weight: bold;display: inline;}
+
+@media (max-width: 767px) {
+	.survey-label{padding:20px 0;}
+	.content-section{padding: 10px;}
+	.content-section ul li{padding: 10px;}
+	.content-section .form-control{width: 100%;}
+	.content-section select, textarea, .check-option{margin:10px 0;}
+	.content-section ul > li > span > label{margin: 0;}
+	.content-section ul > li > span > ul{padding: 0;text-align: center;}
+	.page-heading{padding: 10px 0;}
+	.content-section,.survey-label{font-size: 14px;}
+	.content-section ul > li > span{font-size: 13px;}
+	.survey-btn{padding: 15px;margin-bottom: 15px;}
+}
