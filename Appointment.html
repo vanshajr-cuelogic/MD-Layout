@@ -11,6 +11,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/global.css" rel="stylesheet">
     <link href="css/appointment.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -131,13 +132,13 @@
                                               <span class="form-group col-md-6 pull-left col-xs-12 col-sm-12 time-zone-form-group">
                                                 <label class="pull-left col-md-3 col-xs-12 col-sm-2 form-line-height time-zone">Time Zone : </label>
                                                 <input type="text" class=" pull-left col-md-6 col-sm-7 col-xs-9" placeholder="Jane Doe">
-                                                <button type="button" class="btn btn-md view-report-panel report-btn search-btn">Search</button>
+                                                <button type="button" class="btn search-btn btn-default">Search</button>
                                               </span>
                                               <span class="form-group pull-left col-md-1 col-sm-12 col-xs-12">   
                                                 <label class="pull-left col-sm-12 col-xs-12 form-line-height option-or">OR</label>
                                               </span>
                                               <span class="form-group col-md-5 col-xs-12 col-sm-12 pull-left auto-detect">   
-                                                <button type="button" class="btn btn-md view-report-panel report-btn form-auto-detect detect col-xs-8">Autodetect</button>
+                                                <button type="button" class="btn btn-default col-xs-8 report-btn form-auto-detect">Autodetect</button>
                                               </span>
                                           </form>
                                           </div>
@@ -147,6 +148,43 @@
                               <!-- accordian -->
 
                               <div class="col-md-12 col-sm-12 col-xs-12 appointment-notification pull-left">You have no appointments scheduled at this time.</div>
+
+                              <div class="col-md-12 col-sm-12 col-xs-12 inner-page-title pull-left">Upcoming Appointments</div>
+
+                               <div class="col-md-12 col-sm-12 col-xs-12 upcoming-appointment-list">
+                                 <ul>
+                                    <li class="col-md-12 col-sm-12"> 
+                                      <div class="col-md-3 col-sm-3 col-xs-12 text-left">Dr. Joseph Butler</div>
+                                      <div class="col-md-3 col-sm-3 col-xs-12 text-left">Video session</div>
+                                      <div class="col-md-3 col-sm-3 col-xs-12 text-left">Thursday,08/27/2015 from 06:20PM to 06:40PM</div>
+                                      <div class="col-md-3 col-sm-3 col-xs-12 text-right appointment-btn-section">
+                                        <button type="button" class="btn btn-default">Enter Consult Lobby</button>
+                                         <button type="button" class="btn btn-default">Edit Goal/Background</button>
+                                      </div>
+                                      <div class="col-md-12 col-xs-12 text-right">
+                                      <a href="#">Cancel</a>
+                                      </div>
+                                    </li>
+
+                                    <li class="col-md-12 col-sm-12"> 
+                                      <div class="col-md-3 col-sm-3 col-xs-12 text-left">Dr. Joseph Butler</div>
+                                      <div class="col-md-3 col-sm-3 col-xs-12 text-left">Video session</div>
+                                      <div class="col-md-3 col-sm-3 col-xs-12 text-left">Thursday,08/27/2015 from 06:20PM to 06:40PM</div>
+                                      <div class="col-md-3 col-sm-3 col-xs-12 text-right appointment-btn-section">
+                                        <button type="button" class="btn btn-default">Enter Consult Lobby</button>
+                                         <button type="button" class="btn btn-default">Edit Goal/Background</button>
+                                      </div>
+                                      <div class="col-md-12 col-xs-12 text-right">
+                                      <a href="#">Cancel</a>
+                                      </div>
+                                    </li>
+
+                                 </ul>                          
+                              </div>
+
+
+
+
                               <div class="col-md-12 col-sm-12 col-xs-12 inner-page-title pull-left">Pending Appointments</div>
 
                               <div class="col-md-12 col-sm-12 col-xs-12 pending-appointment-list">
@@ -221,7 +259,7 @@
                                        </div>
 
                                       <div class="col-md-2 col-sm-2 col-xs-12 text-center">  
-                                        <button type="button" class="btn btn-md report-btn view-report-panel">View Report</button>
+                                        <button type="button" class="btn btn-md btn-default report-btn">View Report</button>
                                       </div>
 
                                       <div class="report" id="report-panel">
