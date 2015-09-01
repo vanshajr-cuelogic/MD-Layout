@@ -1,5 +1,5 @@
 .page-heading{
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid $f7f7f7;
 	padding:15px;
 }
 .survey-label{
@@ -12,7 +12,7 @@
 	font-weight: bold;
 }
 .content-section{
-	border:1px solid #ccc;
+	border:1px solid $f7f7f7;
 	padding: 20px;
 	font-size: 17px;
 	margin:15px 0;
@@ -23,7 +23,7 @@
 .content-section ul li{
 	list-style-type: none;
 	padding: 20px;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid $f7f7f7;
 }
 .content-section label{
 	width:100%;
@@ -81,4 +81,6 @@
 	.content-section,.survey-label{font-size: 14px;}
 	.content-section ul > li > span{font-size: 13px;}
 	.survey-btn{padding: 15px;margin-bottom: 15px;}
+	.rating li.normal_star{margin: 2px;padding: 8px;background: rgba(0, 0, 0, 0) url("../images/ratings.png") repeat scroll 0 52px / 15px auto}
+	.rating li.normal_star:hover {background: rgba(0, 0, 0, 0) url("../images/ratings.png") repeat scroll 0 34px / 15px auto; cursor: pointer;}
 }
