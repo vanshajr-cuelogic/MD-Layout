@@ -1,0 +1,81 @@
+.page-heading{
+	border-bottom: 1px solid #e8e8e8;
+	padding:15px;
+	margin-bottom: 30px;
+}
+.form-group-panel{
+	border:1px solid #e8e8e8;
+	padding: 25px;
+    margin: 0 auto;
+    font-family: "HelveticaNeueLight",helvetica,sans-serif;
+    float: none;
+}
+.form-group-panel h4{
+	padding: 15px 0;
+	font-family: 'HelveticaNeue', helvetica, sans-serif;
+}
+.form-group-panel label{
+	/*font-family: "HelveticaNeueLight",helvetica,sans-serif;*/
+	font-weight: normal;
+	font-size: 16px;
+}
+.date-selection{
+	padding: 5px 0;
+	margin: 0;
+}
+.date-selection  .form-group label{
+	padding:5px 15px;
+}
+.event-planned{
+	padding: 5px 15px;
+	margin: 5px;
+}
+.section-date,.time-zone,.phone-number{
+	padding: 0;
+	clear: both;
+}
+.phone-number{
+	margin:15px 0;
+}
+.conf-type{
+	padding: 0;
+}
+.conf-type input{
+	padding: 0;
+}
+.lang-specialist span{
+	padding: 0;
+}
+.lang-specialist label{
+	padding: 0;
+}
+.lang-specialist .language{
+	font-weight: bold;
+}
+.consult-option{
+	margin: 15px 0;
+    padding: 0;
+}
+.consult-option .form-group{
+ 	padding: 0;
+}
+.translation{
+	font-size: 14px;
+	color:#ccc;
+}
+
+
+@media (min-width: 768px) and (max-width: 992px){
+	.form-group-panel{padding: 0;}
+	.proceed-btn{margin: 15px 0}
+}
+
+@media (max-width:767px){
+	.page-heading{padding: 5px; font-size: 22px;}
+	.form-group-panel{padding: 0;}
+	.container-fluid.footer{position: relative;}
+	.proceed-btn{margin: 15px 0}
+	.main-content{margin: 0px;}
+	.form-group-panel label{font-size: 14px;}
+	.consult-option .form-group{padding: 15px;}
+}
