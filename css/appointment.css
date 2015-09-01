@@ -204,10 +204,20 @@ color: #00a1e0;
 	float:left;
 }
 
-/*Modal*/
 
-.modal-content{background: #fff;}
-.modal-body .page-heading{padding: 0;}
+#edit-goal .form textarea{
+	margin: 0px 0px;
+}
+
+#edit-goal .modal-dialog .modal-content .modal-header{
+	border-bottom:none !important;
+}
+
+.cancel-popover-fw {
+ width: 170px; 
+text-align: center;
+}
+
 
 
 /*Responsive*/

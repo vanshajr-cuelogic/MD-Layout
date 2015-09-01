@@ -4,7 +4,8 @@ $(document).ready(function() {
     mobileMenu();
     myhealthDataTextbox();
     accountFormToggle();
-    formToggle()
+    formToggle();
+    cancelBtnPopover();
 
     /*Doctor Dashboard*/
     var device_width = $(window).width();
@@ -219,3 +220,20 @@ $('.formNotificationToggleClick').click(function() {
 }
 
 /*end code for account page notification form toggle*/
+
+
+
+
+  
+// $(document).ready(function(){
+//     $('[data-toggle="popover"]').popover();
+// });
+
+
+/*function for cancel B=button toggle in appointment.html page*/
+function cancelBtnPopover(){
+  var cancelPopoverTemplate = '<div class="popover cancel-popover-fw" role="popover"><div class="arrow"></div><h3 class="popover-title"></h3><div class="popover-content"></div></div>';
+$('.cancelPopover').popover({template: cancelPopoverTemplate });
+
+}
+/*function for cancel B=button toggle in appointment.html page*/
