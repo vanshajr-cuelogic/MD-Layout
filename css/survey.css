@@ -1,29 +1,28 @@
 .page-heading{
-	border-bottom: 1px solid $f7f7f7;
+	border-bottom: 1px solid #f7f7f7;
 	padding:15px;
 }
 .survey-label{
 	font-size: 17px;
 	font-family: "HelveticaNeueLight",helvetica,sans-serif;
-	padding: 20px;
+	/*padding: 20px;*/
 }
 .survey-label a{
 	color:#f76437;
 	font-weight: bold;
 }
 .content-section{
-	border:1px solid $f7f7f7;
-	padding: 20px;
+	border:1px solid #f7f7f7;
 	font-size: 17px;
-	margin:15px 0;
+	margin:5px 0;
 }
 .content-section ul{
 	padding: 0;
 }
 .content-section ul li{
 	list-style-type: none;
-	padding: 20px;
-	border-bottom: 1px solid $f7f7f7;
+/*	padding: 20px;*/
+	border-bottom: 1px solid #f7f7f7;
 }
 .content-section label{
 	width:100%;
@@ -67,7 +66,24 @@
 .checkbox-inline input{
 	margin:5px;
 }
+
+/*Modal*/
+
+.modal-content{background: #fff;}
+.modal-body .page-heading{padding: 0;}
 .survey-note h3{font-size: 15px;font-weight: bold;display: inline;}
+.modal-header {
+    color: #000 !important;
+    position: relative;
+    right: 0%;
+    text-align: left;
+    top: 0%;
+    width: 100%;
+}
+.modal-header h4{
+	font-size: 24px;
+}
+.modal-header .close{margin: 15px;}
 
 @media (max-width: 767px) {
 	.survey-label{padding:20px 0;}
@@ -83,4 +99,5 @@
 	.survey-btn{padding: 15px;margin-bottom: 15px;}
 	.rating li.normal_star{margin: 2px;padding: 8px;background: rgba(0, 0, 0, 0) url("../images/ratings.png") repeat scroll 0 52px / 15px auto}
 	.rating li.normal_star:hover {background: rgba(0, 0, 0, 0) url("../images/ratings.png") repeat scroll 0 34px / 15px auto; cursor: pointer;}
+	.modal-header h4{font-size: 16px;}
 }

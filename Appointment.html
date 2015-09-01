@@ -12,6 +12,7 @@
     <link href="css/global.css" rel="stylesheet">
     <link href="css/appointment.css" rel="stylesheet">
     <link href="css/theme.css" rel="stylesheet">
+    <link href="css/survey.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -251,6 +252,9 @@
                                        <div class="col-md-3 col-sm-3 col-xs-6 text-left">
                                          <label class="history-panel-internal col-md-12 col-xs-12">Rating Given</label>
                                          <label class="text-center col-md-12 col-xs-12 given-rating">******<label>
+                                         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                                            Launch demo modal
+                                              </button>
                                        </div>
                                      
                                        <div class="col-md-2 col-sm-2 col-xs-6 text-left">
@@ -318,3 +322,175 @@
                 <script src="js/layout.js"></script>
             </body>
         </html>
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span></button>
+             <!--   <h3 class="page-heading">Member Experience Survey</h3> -->
+              <h4 class="modal-title" id="myModalLabel">Member Experience Survey</h4>
+            </div>
+            <div class="modal-body container-fluid">
+
+            <p class="col-md-12 survey-label">
+              Please take a moment to provide your feedback on your 2nd.md experience. Your opinions can change lives. The information you provide is 100% private and secure. For questions and suggestions, e-mail 
+              <a href="#">careteam@2nd.md</a>
+            </p>  
+
+            <div class="content-section col-md-12">
+               <ul>
+                  <li>
+                      <label>Q1: What reminded you to use the 2nd.MD concierge?</label>
+                      <select class="form-control">
+                        <option>Select from the list</option>
+                        <option>abc</option>
+                        <option>xyz</option>
+                        <option>yxs</option>
+                        <option>sda</option>
+                        <option>qwq</option>
+                      </select>  
+                  </li>
+                   <li>
+                      <label>Q2: Please rate the specialist.</label>
+
+                      <span>
+                       <label>Did the specialist care about your medical concerns?</label>
+                        <ul class="rating">
+                          <li class="normal_star"></li>
+                          <li class="normal_star"></li>
+                          <li class="normal_star"></li>
+                          <li class="normal_star"></li>
+                          <li class="normal_star"></li>
+                        </ul>
+                      </span>
+
+                       <span>
+                         <label>Did the specialist have extensive knowledge about your condition?</label>
+                          <ul class="rating">
+                            <li class="normal_star"></li>
+                            <li class="normal_star"></li>
+                            <li class="normal_star"></li>
+                            <li class="normal_star"></li>
+                            <li class="normal_star"></li>
+                          </ul>
+                       </span>
+                  </li>
+
+                  <li>
+                      <label>Q3: Please elaborate on your specialist ratings.</label>
+                      <textarea class="form-control" rows="5" id="comment"></textarea>
+                  </li>
+
+                  <li>
+                      <label>Q4: Did your specialist suggest an alternative diagnosis to explore?</label>
+                      <form role="form" class="check-option">
+                          <label class="checkbox-inline">
+                            <input type="radio" value=""> Yes
+                          </label>
+                          <label class="checkbox-inline">
+                            <input type="radio" value=""> No
+                          </label>
+                          <label class="checkbox-inline">
+                            <input type="radio" value=""> N/A
+                          </label>
+                      </form>
+                  </li>
+
+                   <li>
+                      <label>Q5: Did your specialist suggest an alternative treatment?</label>
+                      <form role="form" class="check-option">
+                          <label class="checkbox-inline">
+                            <input type="radio" value=""> Yes
+                          </label>
+                          <label class="checkbox-inline">
+                            <input type="radio" value=""> No
+                          </label>
+                          <label class="checkbox-inline">
+                            <input type="radio" value=""> N/A
+                          </label>
+                      </form>
+                  </li>
+
+                   <li>
+                      <label>Q6: Did your 2nd.MD consult save you an additional doctor's visit?</label>
+                      <form role="form" class="check-option">
+                          <label class="checkbox-inline">
+                            <input type="radio" value=""> Yes
+                          </label>
+                          <label class="checkbox-inline">
+                            <input type="radio" value=""> No
+                          </label>
+                      </form>
+                  </li>
+
+                   <li>
+                      <label>Q7: How likely are you to recommend 2nd.MD to a friend or colleague?</label>
+                      <span>
+                        <ul class="rating">
+                          <li class="normal_star"></li>
+                          <li class="normal_star"></li>
+                          <li class="normal_star"></li>
+                          <li class="normal_star"></li>
+                          <li class="normal_star"></li>
+                          <li class="normal_star"></li>
+                          <li class="normal_star"></li>
+                          <li class="normal_star"></li>
+                          <li class="normal_star"></li>
+                          <li class="normal_star"></li>
+                        </ul>
+                      </span>
+                  </li>
+
+                  <li>
+                      <label>Q8: Please rate your experience with the 2nd.MD:</label>
+
+                      <span>
+                       <label>Care Team</label>
+                        <ul class="rating">
+                          <li class="normal_star"></li>
+                          <li class="normal_star"></li>
+                          <li class="normal_star"></li>
+                          <li class="normal_star"></li>
+                          <li class="normal_star"></li>
+                        </ul>
+                      </span>
+
+                       <span>
+                         <label>System/Technical Ease of Use</label>
+                          <ul class="rating">
+                            <li class="normal_star"></li>
+                            <li class="normal_star"></li>
+                            <li class="normal_star"></li>
+                            <li class="normal_star"></li>
+                            <li class="normal_star"></li>
+                          </ul>
+                       </span>
+                  </li>
+
+                  <li>
+                      <label>Q9: Please elaborate on your technical rating:</label>
+                      <textarea class="form-control" rows="5" id="comment"></textarea>
+                  </li>
+
+                  <li>
+                      <label>Q10: How can we better serve you? (optional)</label>
+                      <textarea class="form-control" rows="5" id="comment"></textarea>
+                  </li>
+
+               </ul>
+
+               <label class="survey-note">
+                <p>
+                  <h3>Note:</h3> If the 2nd.MD specialists suggests you have a physical follow up appointment or if we can assist you with a local physician recommendation, please be sure to let your Care Team specialist know and we would be happy to help.
+                </p>
+               </label> 
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>

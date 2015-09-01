@@ -204,6 +204,12 @@ color: #00a1e0;
 	float:left;
 }
 
+/*Modal*/
+
+.modal-content{background: #fff;}
+.modal-body .page-heading{padding: 0;}
+
+
 /*Responsive*/
 @media (min-width: 1400px) {
 .history-panel-internal{display: none !important;}
