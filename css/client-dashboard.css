@@ -65,12 +65,10 @@ margin-bottom: 0px;
 }
 
 .media-border{
-
 	border-bottom: 1px solid #ffffff;
 	-moz-box-shadow:   0 0 1px #dbdbdc;
 	-webkit-box-shadow: 0 0 1px #dbdbdc;
 	box-shadow:        0 0 1px #dbdbdc;
-
 }
 
 .doctor-box-alignment{
@@ -86,6 +84,12 @@ margin-bottom: 0px;
 .doctor-box-alignment:nth-child(2){
     padding: 0px 0px 25px 0px;
     margin: 25px 25px 0px 25px;
+}
+
+@media(max-width: 1024px){
+    .doctor-box-alignment h4.pageheader3{
+        font-size: 19px;
+    }
 }
 
 @media(max-width: 767px){
