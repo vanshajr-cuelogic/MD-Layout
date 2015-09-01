@@ -156,7 +156,9 @@ color: #00a1e0;
 	margin:0;
 	padding:0;
 }
-
+.nav-tabs{
+	border-bottom: 0px !important;
+}
 .pending-appointment-list > ul{
 	padding:0 !important;
 	margin-top:5px;

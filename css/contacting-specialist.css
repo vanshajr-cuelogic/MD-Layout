@@ -1,0 +1,53 @@
+h2.pageheader1{
+font-size: 25px;
+margin-top:10px;
+padding-bottom:25px;
+font-weight: normal;
+padding-left:15px;
+}
+
+h4.pageheader4 {
+    font-size: 24px;
+    font-family: "HelveticaNeueLight",Helvetica,Arial,sans-serif;
+    margin: 0px;
+}
+
+.hrline{
+    margin:25px 0px;
+}
+.email-notification{
+	font-size: 16px;
+	font-weight: normal;
+	margin: 15px 0;
+	padding: 0;
+	color: #999;
+}
+.greet-note{
+	margin:0;
+	padding: 0;
+	font-weight: normal;
+}
+.conduct-btn{
+	padding: 0;
+}
+.media-body{
+	padding: 0 15px;
+}
+
+@media (max-width:767px){
+.media-left, .media-right, .media-body{
+	display: block;
+}
+.media-body{
+	width: 100%;
+	margin: 15px 0;
+    padding: 0;
+    text-align: center;
+}
+.media-object.borderbox{
+	margin: 0 auto;
+}
+.container-fluid.footer{
+	position: relative;
+}
+}

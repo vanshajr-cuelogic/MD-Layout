@@ -15,6 +15,12 @@ $(document).ready(function() {
         $(".portion").slideToggle();
       })
     }
+
+    /*Request Consult*/
+   //$('#datetimepicker1').datetimepicker();
+  // $('#datetimepicker2').datepicker();
+  // $('#datetimepicker3').datepicker();
+
       
 
     /*Doctor Dashboard*/
@@ -128,7 +134,7 @@ function toggleFn() {
         $('#time-zone-wrap').slideToggle();
     });
 
-    $(".view-report-panel").click(function(){
+    $("#history-report").click(function(){
         $("#report-panel").slideToggle();
     });
     $("#specialist-block").click(function(){
