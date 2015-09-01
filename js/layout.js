@@ -6,6 +6,23 @@ $(document).ready(function() {
     accountFormToggle();
     formToggle()
 
+
+    $(".pop").click(function(){
+      alert("functionality Remaining");
+     // $(".modal-backdrop.fade").css('opacity',0.5);
+     // $('#the-'+$(this).attr('id')).modal('toggle');
+     // $('#the-'+$(this).attr('id')).show();
+
+     //   $(".modal-backdrop").click(function(){
+     //    // $("body").removeClass('modal-open');
+     //    $(".modal-backdrop.fade").css('opacity',1);
+     //     // $('#the-'+$(this).attr('id')).hide();
+          
+     //     });
+
+    })
+
+
     /*Doctor Dashboard*/
     var device_width = $(window).width();
 
@@ -19,7 +36,7 @@ $(document).ready(function() {
     /*Request Consult*/
    //$('#datetimepicker1').datetimepicker();
   // $('#datetimepicker2').datepicker();
-  // $('#datetimepicker3').datepicker();
+  // $('#datetimepicker3').datepicker();  
 
       
 

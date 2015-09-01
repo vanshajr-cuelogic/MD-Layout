@@ -29,9 +29,10 @@
 .section-two .img-circle{
 	width: 90%;
 	border: 1px solid #ccc;
+	margin-top:0px;
 }
 .section-two label{
-	padding: 30px 0;
+	padding: 52px 0;
 	font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	font-size: 24px;
@@ -40,21 +41,33 @@
 	padding: 10px 0;
 }
 
-.section-two-left p button,.section-two-left p button:focus,.section-two-left p button:hover,.section-two-left p button:active{
+/*.section-two-right button,.section-two-right button:focus,.section-two-right button:hover,.section-two-right button:active{
 	margin:15px 0px 0px 0px;
 	padding: 6px 12px;
     font-size: 13px;
-}
+    width: 170px;
+}*/
 .section-two-left p{
-margin:10px 0px 0px 5px;
+margin:3px 0px 0px 7px;
 }
+.section-two-left p a img{
+	width: 27px;
+} 
+
+
 .section-two-right{
-	padding: 40px;
+	padding: 15px;
 }
 .section-two-right button{
-	font-size: 18px;
 	font-family: "HelveticaNeueLight",helvetica,sans-serif;
-	margin:0 10px;
+	margin:3px 0px;
+	width: 160px;
+	border:none;
+}
+.section-two-right button:focus,.section-two-right button:hover,.section-two-right button:active{
+	text-decoration: none;
+	border:none;
+	outline: none;
 }
 .content-section{
 	font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
@@ -98,6 +111,87 @@ margin:10px 0px 0px 5px;
 	margin-bottom:5px;
 }
 
+.panel a{
+	font-size: 14px;
+	color:#000;
+	font-weight: bold;
+}
+.panel-group{
+	margin: 0;
+}
+.panel-heading{
+	background: #f7f7f7;
+}
+.panel-body{
+	border-top:1px solid #f7f7f7;
+}
+.panel-title{
+	font-weight: bold;
+	font-size: 14px;
+}
+.media-body a,p{
+	font-size: 14px;
+}
+.media-body a{
+	color:#49b6ef;
+	font-weight: normal;
+}
+.rating-panel-section{
+	border-bottom: 1px solid #ccc;
+	padding: 15px 0;
+}
+.rating li.normal_star {
+    background: rgba(0, 0, 0, 0) url("../images/ratings.png") repeat scroll 0 100px / 29px auto;
+    border: medium none;
+    display: inline-block;
+    margin: 4px;
+    padding: 14px;
+    margin-left: 0;
+}
+.rating li.normal_star:hover {
+    background: url('../images/ratings.png');
+    background-position: 0px 61px;
+    background-size: 28px;
+    cursor: pointer;
+}
+#client-rating label{
+	font-weight: normal;
+	padding: 0 5px;
+}
+#recognition a{
+	color:#49b6ef;
+	font-size: 12px;
+	font-weight: normal;
+}
+#recognition a:hover{
+	text-decoration: underline;
+}
+.img-section{
+	padding: 0px;
+   white-space: nowrap;
+}
+.img-section ul{
+	overflow-y:auto;
+}
+.img-section ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px;
+}
+.modal-open .modal{
+	margin:auto;
+	background: #000 none repeat scroll 0 0;
+    border: 2px solid #fff;
+    display: inline;
+    padding: 50px !important;
+}
+/*.modal{
+	position: relative;
+}
+.close-btn{
+	right: 0;
+	position: absolute;
+}*/
 @media(max-width: 1100px){
 	.sub-header-video{padding: 20px 0;}
 	.sub-header-content{font-size: 18px;padding: 45px 0;}
@@ -113,13 +207,13 @@ margin:10px 0px 0px 5px;
 @media(min-width: 768px) and (max-width: 992px){
 	.section-one h2{font-size: 21px;padding: 22px 0;}
 	.sub-header-content{padding: 45px 0 0 22px;}
-	.section-two label{font-size: 18px; padding:50px 0;}
-	.section-two-right button{font-size: 12px;}
+	.section-two label{font-size: 18px; padding:51px 0;}
+	.section-two-right button{font-size: 12px; margin:3px 10px;}
 	.content-section label{font-size: 14px;}
 	.content-section ul{padding: 5px 6px;}
 	.content-section label{padding: 5px 6px;}
 	.sub-part-tags li{font-size: 14px;}
-	.section-two-right{padding: 50px 0;}
+	.section-two-right{padding: 10px 0;}
 }
 
 @media(max-width: 767px){
