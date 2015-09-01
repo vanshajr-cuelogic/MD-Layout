@@ -39,6 +39,15 @@
 .section-two-left{
 	padding: 10px 0;
 }
+
+.section-two-left p button,.section-two-left p button:focus,.section-two-left p button:hover,.section-two-left p button:active{
+	margin:15px 0px 0px 0px;
+	padding: 6px 12px;
+    font-size: 13px;
+}
+.section-two-left p{
+margin:10px 0px 0px 5px;
+}
 .section-two-right{
 	padding: 40px;
 }
