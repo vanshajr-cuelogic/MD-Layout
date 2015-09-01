@@ -1,0 +1,37 @@
+h2.pageheader1{
+font-size: 28px;
+margin-top:10px;
+padding-bottom:25px;
+font-weight: normal;
+padding-left:15px;
+}
+
+h4.pageheader4 {
+    font-size: 21px;
+    font-family: "HelveticaNeueLight",Helvetica,Arial,sans-serif;
+    margin: 0px;
+}
+
+
+.hrline{
+    margin:25px 0px;
+}
+
+.delete-image {
+    width: 33px;
+    height: 24px;;
+    cursor: pointer;
+    background-position: center top;
+    background-image:  url('../images/delete2_can.png');
+    background-repeat: no-repeat;
+    background-position: 0px -24px;
+    outline: none;
+    border:none;
+}
+
+.delete-image:hover {
+    background-position: 0px 0px;
+    background: url('../images/delete2_can.png');
+    outline: none;
+    border:none;
+}

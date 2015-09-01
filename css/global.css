@@ -392,9 +392,9 @@ visibility:hidden;
     clear:both;
     margin:55px 15px 20px 15px;
 }
-
-
-
+.font16{
+    font-size: 16px
+}
 
 
 /*media query for width  more than 1400px*/
