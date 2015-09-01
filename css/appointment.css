@@ -204,6 +204,22 @@ color: #00a1e0;
 	float:left;
 }
 
+
+#edit-goal .form textarea{
+	margin: 0px 0px;
+}
+
+#edit-goal .modal-dialog .modal-content .modal-header{
+	border-bottom:none !important;
+}
+
+.cancel-popover-fw {
+ width: 170px; 
+text-align: center;
+}
+
+
+
 /*Responsive*/
 @media (min-width: 1400px) {
 .history-panel-internal{display: none !important;}
