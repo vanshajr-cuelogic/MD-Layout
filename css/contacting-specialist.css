@@ -33,3 +33,21 @@ h4.pageheader4 {
 .media-body{
 	padding: 0 15px;
 }
+
+@media (max-width:767px){
+.media-left, .media-right, .media-body{
+	display: block;
+}
+.media-body{
+	width: 100%;
+	margin: 15px 0;
+    padding: 0;
+    text-align: center;
+}
+.media-object.borderbox{
+	margin: 0 auto;
+}
+.container-fluid.footer{
+	position: relative;
+}
+}

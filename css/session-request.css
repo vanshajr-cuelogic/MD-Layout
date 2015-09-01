@@ -28,3 +28,13 @@ h4.pageheader4 {
 	margin:20px 0;
 	padding: 0;
 }
+
+@media (max-width:767px){
+	.main-content .borderbox{
+		text-align: center;
+	}
+	.container-fluid.footer{
+		position: relative;
+	}
+	.conduct-btn{margin: 0;}
+}
