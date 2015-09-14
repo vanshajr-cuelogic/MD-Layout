@@ -1,0 +1,33 @@
+.speciality-detail {
+    border: 1px solid #ccc;
+}
+
+.right-panel {
+
+     border-top: 0px;
+
+}
+
+.left-panel-section span {
+    border: 0px;
+}
+
+.right-panel {
+position: relative;
+border-left:1px solid #ccc;
+}
+
+.left-panel {
+    border-right: 0px;
+}
+
+.right-panel .video-section .right-content-section h4{
+	font-weight: 600;
+	margin-bottom:5px;
+}
+
+@media(max-width:768px){
+	.left-panel{
+		border:2px solid #ccc;
+	}
+}
