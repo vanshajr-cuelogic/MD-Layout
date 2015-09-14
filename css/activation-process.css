@@ -1,0 +1,162 @@
+.activation-section{
+	border:1px solid #c4c4c4;
+	box-shadow: 0px 0px 5px 1px #c4c4c4;
+	padding: 30px;
+	background-image:  url('../images/header-bg.png');
+	background-repeat: repeat;
+	background-position: center;
+	float: none;
+	margin: 0 auto;
+}
+.activation-header{
+	border-bottom: 1px solid #ccc;
+    padding: 20px 0px;
+    padding-top: 0;
+}
+.activation-header img,h3{
+	padding: 0 !important;
+	color:#35404f;
+	margin:0 10px;
+}
+.activation-nav-section span{
+	padding:5px 52px;
+	background: #e8e8e8;
+	color: #000;
+	border:1px solid #999;
+	font-family: 'HelveticaNeue', helvetica, sans-serif;
+	margin:0 -3px;
+}
+.activation-nav-section-active{
+	background: #ff705b !important;
+	color: #fff !important;
+	border:1px solid #ff705b !important;
+}
+.activation-label label{
+	font-weight: normal;	
+	margin:10px 0;
+	font-size: 15px;
+}
+
+.activation-form > div > span{
+	display: block;
+	width: 100%
+}
+.activation-form input{
+	display: block;
+	width: 100%
+}
+.activation-form > .form-group{
+	width: 49%;
+    display: inline-block;
+    margin: 10px 0;
+}
+.activation-form span{
+	color:#999;
+}
+.form-inline .form-control{
+	width:100% !important;
+}
+.activation-dob > .form-group{
+	display: inline;
+}
+.activation-dob .form-control{
+	width:20% !important;
+}
+.activation-dob{
+	width:100% !important;
+}
+.next-btn{
+	text-align: center;
+	width: 100% !important;
+}
+.next-btn button{
+	float: none;
+	margin: 20px 0;
+	margin-bottom: 0;
+}
+
+/*Verification Page*/
+.verification-form{
+	text-align: center;	
+}
+.verification-form > .form-group{
+	text-align: center;
+}
+/*Verification Page End*/
+
+
+
+/*Care Team Page*/
+.careteam-form .form-group{
+    display: block;
+    margin: 10px auto;
+}
+.label-def{
+	font-size: 15px;
+	color:#ff705b;
+	width: 100%;
+}
+.label-default{
+	background: none !important;
+	color:#ff705b;
+	font-weight: normal;
+}
+/*End Care Team Page*/
+
+/*Final Step*/
+
+.option-control{
+	padding:20px 0;
+}
+input[type="radio"], input[type="checkbox"]{
+	    vertical-align: top;
+	    margin: 4px;
+}
+
+/*End Final Step*/
+
+
+/*Media Query For Login*/
+@media (min-width: 768px) and (max-width: 1100px) {
+	.activation-nav-section span{
+		padding:5px 36px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 991px){
+	.activation-nav-section{text-align: center !important;}
+	.activation-form > .form-group{
+		width: 100%;
+	}
+}
+
+
+@media (max-width: 767px) {
+	.activation-label{
+		text-align: center;
+	}
+	.activation-label label{
+		margin: 10px 15px;
+	}
+
+	.activation-nav-section span{
+		padding:5px 4%;
+	}
+	.activation-dob .form-control {
+	    width: 30% !important;
+	    display: inherit;
+	    margin: 10px 1px;
+	}
+	.form-control{
+		padding: 5px;
+	}
+}
+
+@media (max-width: 410px){
+	.activation-nav-section span{
+		padding: 5px 2%;
+	}
+	.activation-dob .form-control{
+		margin:9px 0;
+	}
+}
