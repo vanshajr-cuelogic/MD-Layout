@@ -254,3 +254,10 @@ $('.cancelPopover').popover({template: cancelPopoverTemplate });
 
 }
 /*function for cancel B=button toggle in appointment.html page*/
+
+/*tooltip for rating page*/
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+/*end tooltip for rating page*/
+

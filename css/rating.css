@@ -7,9 +7,12 @@ padding-left:15px;
 }
 
 h4.pageheader4 {
-    font-size: 21px;
     font-family: "HelveticaNeueLight",Helvetica,Arial,sans-serif;
     margin: 0px;
+    font-size: 18px;
+    font-weight: 400;  
+    background-color: #f7f7f7;
+    padding: 10px;
 }
 
 
@@ -52,6 +55,7 @@ h4.pageheader4 {
     font-weight: 400;  
     background-color: #f7f7f7;
     padding: 10px;
+    font-family: "HelveticaNeueLight",Helvetica,Arial,sans-serif;
 }
 
 .ratingbox .ratinghead span{
@@ -74,3 +78,14 @@ h4.pageheader4 {
     font-weight: 400;  
 }
   
+.gp{
+    padding: 4px;
+    font-size: 11px;
+    color: #db4437;
+    font-weight: bold;
+    border:thin solid #ccc;
+}
+.gp:hover{
+    text-decoration: none;
+    color: #db4437;
+}
