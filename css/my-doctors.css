@@ -35,3 +35,38 @@ h4.pageheader4 {
     outline: none;
     border:none;
 }
+
+
+/*new code starts from here for browse-doctors1.html file*/
+.grey-bg{
+    background: #ebebeb;
+}
+
+.diseases-list .borderbox .dropdown{
+    margin:10px 0px;
+}
+.diseases-list .borderbox .dropdown h4{
+    margin:0px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.diseases-list .borderbox .dropdown.open{
+position: relative;
+overflow: hidden;
+}
+
+.diseases-list .borderbox .dropdown ul.dropdown-menu{
+    border:none;
+    background:none;
+    box-shadow: none;
+    width:auto;
+    min-width:130px;
+    margin:0px 10px;
+    position: relative;
+}
+
+.diseases-list .borderbox .dropdown ul.dropdown-menu li{
+    position: relative;
+    font-size: 13px
+}
+/*end new code starts from here for browse-doctors1.html file*/
