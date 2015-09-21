@@ -132,7 +132,7 @@ color:#3c3c3b;
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #ddd;
+  /*border-bottom: 1px solid #ddd;*/
 }
 
 ul.nav-tabs > li >a{
