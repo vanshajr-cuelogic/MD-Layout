@@ -194,6 +194,9 @@ function myhealthDataTextbox() {
 function mobileMenu() {
     $(".navbar-toggle").on('click',function(){
         $('.mainmenu').slideToggle();
+    });
+     $(".navbar-toggle1").on('click',function(){
+        $('.cms-tab').slideToggle();
 
     });
 }
