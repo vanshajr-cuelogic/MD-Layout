@@ -1,0 +1,7 @@
+.text-uppercase{
+    text-transform: uppercase;
+}
+ 
+ .tab-layout li.active a{
+    color:#fe715d!important;
+ }
