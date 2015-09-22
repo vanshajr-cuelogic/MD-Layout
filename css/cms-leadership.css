@@ -1,0 +1,44 @@
+.tagline{
+	font-size: 16px;
+	text-align: center;
+}
+.tagline-author{
+	font-size: 18px;
+	text-align: right;
+}
+
+.media-align,.media-align:first-child{
+	margin-top:25px;
+	padding-bottom:25px;
+	border-bottom:1px solid #e5e5e5;
+}
+
+.media-align:last-child{
+	border-bottom:0px;
+}
+
+.media h4{
+	font-size: 15px;
+	margin:10px 0 0 0;
+}
+.media h4:hover{
+text-decoration: none;
+
+}
+
+.media .media-left{
+	padding-right:30px;
+}
+
+.media img.media-object{
+	margin: 0px auto;
+}  
+
+@media (max-width:767px){
+	.media .media-body{
+		width:100%;
+	}
+
+
+
+}
