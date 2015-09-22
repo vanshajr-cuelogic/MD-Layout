@@ -16,7 +16,7 @@
 	padding:10px;
 }
 .feed-description{
-	padding: 5%;
+	clear: both;
 }
 .feed-description label{
 	font-size: 18px;
@@ -24,4 +24,9 @@
 	font-family: "HelveticaNeueLight",Helvetica,Arial,sans-serif;
 	display: block;
 	padding: 15px;
+}
+@media (max-width:767px){
+	.left-panel{
+		padding: 0;
+	}
 }
