@@ -1,0 +1,27 @@
+.feed-panel{
+	 font-family: "HelveticaNeue",Helvetica,Arial,sans-serif;
+	 border-bottom: 1px solid #e5e5e5;
+	 background:#fff8f7;
+	 cursor: pointer;
+}
+.feed-panel:last-child{
+	border-bottom: none;
+}
+.feed-panel.active{
+	background: #fff;
+}
+.feed-date{
+	color: #22aee4;
+	font-size: 16px;
+	padding:10px;
+}
+.feed-description{
+	padding: 5%;
+}
+.feed-description label{
+	font-size: 18px;
+	color: #3c3c3b;
+	font-family: "HelveticaNeueLight",Helvetica,Arial,sans-serif;
+	display: block;
+	padding: 15px;
+}
