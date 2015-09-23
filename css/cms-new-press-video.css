@@ -1,0 +1,17 @@
+.feed-panel{
+	padding:18px;
+	border-bottom:1px solid #f7f7f7;
+}
+.feed-panel:last-child{
+border-bottom:none;	
+}
+.feed-panel:hover{
+	background: #cce8f6;
+}
+.feed-panel p{
+	font-family: "HelveticaNeueLight",Helvetica,Arial,sans-serif;
+	font-size: 15px;
+}
+.feed-panel h3{
+	color:#666
+}
