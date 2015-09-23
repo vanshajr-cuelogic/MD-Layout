@@ -3,7 +3,7 @@
 	border-bottom:1px solid #f7f7f7;
 }
 .feed-panel:last-child{
-border-bottom:none;	
+	border-bottom:none;	
 }
 .feed-panel:hover{
 	background: #cce8f6;
@@ -17,6 +17,9 @@ border-bottom:none;
 }
 #sub-menu li.sub-act{
 	color:#000;
+}
+.feed-panel h3{
+	margin-top: 0;
 }
 
 
@@ -32,11 +35,5 @@ border-bottom:none;
     float: none;
     clear: both;
     margin: 0 auto;
-	}
-}
-
-@media (min-width:801px) and (max-width: 1100px){
-	.feed-panel h3{
-		margin: 0;
 	}
 }
