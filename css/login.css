@@ -14,6 +14,15 @@
 .login-header{
 	padding: 0;
 }
+
+.login-header h3 span.logoimg{
+background:url('../images/login.png')no-repeat;
+width:50px;
+height:31px;
+display: inline-block;
+    vertical-align: top;
+}
+
 .login-header img,h3{
 	padding: 0 !important;
 	margin: 0 !important;

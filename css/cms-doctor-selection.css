@@ -1,0 +1,11 @@
+.page-heading {
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-family: 'HelveticaNeue', helvetica, sans-serif;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+
+.media .media-left a img.media-object{
+	margin:0px auto;
+}

@@ -1,0 +1,17 @@
+.page-heading {
+    font-size: 28px;
+}
+
+.media .media-left a img.media-object{
+	margin:0px auto;
+}
+
+.media-heading{
+	line-height: 27px;
+	color:#3c3c3b;
+	font-size: 15px;
+}
+
+.media-align{
+	padding:10px;
+}
