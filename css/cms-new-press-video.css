@@ -15,7 +15,7 @@ border-bottom:none;
 .feed-panel h3{
 	color:#666
 }
-#sub-menu.active{
+#sub-menu li.sub-act{
 	color:#000;
 }
 
