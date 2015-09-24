@@ -8,15 +8,27 @@
 	float: none;
 	margin: 0 auto;
 }
-.activation-header{
+/*.activation-header{
 	border-bottom: 1px solid #ccc;
     padding: 20px 0px;
     padding-top: 0;
-}
+}*/
 .activation-header img,h3{
 	padding: 0 !important;
 	color:#35404f;
 	margin:0 10px;
+}
+
+.activation-header{
+	padding: 0;
+}
+
+.activation-header h3 span.logoimg{
+background:url('../images/login.png')no-repeat;
+width:50px;
+height:31px;
+display: inline-block;
+    vertical-align: top;
 }
 .activation-nav-section span{
 	padding:5px 52px;
