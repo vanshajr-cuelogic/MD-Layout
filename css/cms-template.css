@@ -54,8 +54,12 @@
 	cursor: pointer;
 }
 .cms-tab li.active{
-	color:#49b6ef;
-	background-color: #fff;
+	color: #49b6ef;
+    background-color: #fff;
+    margin-right: -2px;
+    border-right: 0px;
+    z-index: 1;
+    position: relative;
 }
 .cms-caret{
     margin-top: 8px;
@@ -77,6 +81,9 @@
 }
 #sub-menu li{
 	padding-left:40px;
+}
+#sub-menu li.sub-act{
+	color:#000;
 }
 @media (min-width: 768px) and (max-width: 992px){
 	.cms-tab{
@@ -135,9 +142,9 @@
 	.cms-container{
 		border:1px solid #e8e8e8;
 	}
-	.left-panel{
+	/*.left-panel{
 		border-bottom: 1px solid #e8e8e8;
-	}
+	}*/
 	.left-internal{
 		border-bottom: 1px solid #e8e8e8;
 	}
