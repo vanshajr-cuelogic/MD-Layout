@@ -274,10 +274,10 @@ h2 > .primary-text-highlight {
     display: none;
 }
 .banner-label{
-     border: 3px solid #fff;
+    border: 3px solid #fff;
     left: 15%;
-    padding: 20px 14px;
-    position: absolute;
+    padding: 18px 14px 50px;
+    position: relative;
     top: 15%;
     background: #f6f7f9;
 }
@@ -288,9 +288,9 @@ h2 > .primary-text-highlight {
     z-index: 2;
 }
  .get-answer{
-    left: 28%;
     position: absolute;
-    top: 38%;
+    bottom: 5%;
+    left: 38%;
  }
    .collapse-btn-expand{
    cursor: pointer;

@@ -44,6 +44,32 @@ $(document).ready(function() {
     /*Doctor Dashboard*/
 
       /*Dashboard*/
+
+      // Carausel Setting
+      // var item_count = $(".carousel-inner > .item").length;
+      // var ele_prev = 0;
+      // var ele_next = item_count;
+      // var ele_next_limit = ele_next-4;
+
+      // // $("#previous").click(function(){
+      // //   // ele_prev++;
+        
+      // //   if(ele_prev == ele_prev-4){
+      // //     alert(ele_prev);  
+      // //   }
+      // // })
+     
+
+      // $("#next").click(function(){
+      // //  
+      // //  alert(ele_next);
+      //    if(ele_next == ele_next_limit){
+      //    //  alert(ele_next);  
+      //     $("#next").hide();
+      //     ele_next--;
+      //   }
+      // })
+
         $('.carousel').carousel('pause'); //For Pause the auto scroll of carausel
         $('.carousel .item').each(function(){
           var next = $(this).next();
