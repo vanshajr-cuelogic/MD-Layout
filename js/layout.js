@@ -223,7 +223,9 @@ function mobileMenu() {
     });
      $(".navbar-toggle1").on('click',function(){
         $('.cms-tab').slideToggle();
-
+    });
+    $(".dashboard-toggle").on('click',function(){
+        $('.navigation-tab').slideToggle();
     });
 }
 /*end code for toggle navbar*/

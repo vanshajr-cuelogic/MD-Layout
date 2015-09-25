@@ -16,7 +16,7 @@
   </head>
   <body>
      <!--header part-->
-        <div class="container-fluid header">
+        <div  id="home" class="container-fluid header">
             <div class="container">
                 <!--logo-->
                 <div class="logo pull-left">
@@ -26,62 +26,29 @@
                 <!--header menu-->
                 <div class="pull-right">
                     <!--start of main menu-->
-                    <button class="navbar-toggle">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
+                  
                     <ul class="mainmenu list-inline">
-                            <li>
-                                <a href="#"><img src="images/my-appointments.png" class="img-circle" /><span class="span_appointments">Appointments</span> <span class="counter">2</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="images/my-health.png" class="img-circle" /><span>My Health</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="images/my-doctors.png" class="img-circle" /><span>My Doctors</span></a>
-                            </li>
-                            <li class="toggle-dropdown">
-                                <a href="#"><img src="images/dr.-smoker.png" class="img-circle" />
-                                <p>
-                                    <span>Dr. Smoker</span><i class="caret"></i>
-                                </p>
-                                </a>
-                                <ul class="has-sub display-none small-menu">
-                                    <li><a href="#">Reports</a></li>
-                                    <li><a href="#">Appointments</a></li>
-                                    <li><a href="#">Corporate</a></li>
-                                </ul>
-                            </li>
-                            <li class="toggle-dropdown">
-                                <a href="#">
-                                    <img src="images/admin.png" class="img-circle" />
-                                    <p>
-                                        <span>Admin</span><i class="caret"></i>
-                                    </p>
-                                </a>
-                                    <ul class="has-sub display-none big-menu">
-                                        <li class="border-none">
-                                            <a href="#">Accounts</a>
-                                            <a href="#">Terms</a>
-                                            <a href="#">SEO</a>
-                                            <a href="#">Blog</a>
-                                        </li>
-                                        <li class="border-none">
-                                            <a href="#">Appointments</a>
-                                            <a href="#">Corporate</a>
-                                            <a href="#">CMS</a>
-                                            <a href="#">Tools</a>
-                                        </li>
-                                        <li>                                            
-                                            <a href="#">Reports</a>
-                                            <a href="#">Appointments</a>
-                                            <a href="#" class="theme-color2">Logout</a>
-                                        </li>
-                                    </ul>
-                            </li>
-                        </ul><!--end of main menu-->
+                        <div class="login-section">
+                        <label class="pull-left call-label">Call us 1.866.841.2575</label>
+                        <span class="pull-left login-dashboard-btn"><button class="btn btn-default">Login</button></span>
+                        <button class="dashboard-toggle">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="navigation-tab">
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#content_section">Doctor</a></li>
+                                <li><a href="#consult_section">When to Use</a></li>
+                                <li><a href="#content_video_section">Our Story</a></li>
+                                <li><a href="#stories_section">Your Story</a></li>
+                                <li><a href="#feature_section">More Information</a></li>
+                            </ul>
+                        </div>
+
+                        </div>
                     </div><!--end header menu-->
             </div>
         </div>
@@ -108,7 +75,7 @@
              
         </div>    
 
-        <div class="content-section col-md-12 col-xs-12 pull-left">
+        <div id="content_section" class="content-section col-md-12 col-xs-12 pull-left">
             <div class="text-center">
                 <h2><span class="primary-text-highlight ">THE BEST</span> CARE POSSIBLE. </h2>
                 <div class="toggle-section col-md-7 text-center">
@@ -243,7 +210,7 @@
                 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
             </div>
 
-         <div class="consult-section pull-left col-md-12 col-xs-12">
+         <div id="consult_section" class="consult-section pull-left col-md-12 col-xs-12">
             <div class="text-center">
                 <h2 class="consult-label">Get your 2nd.MD consult in just <span class="primary-text-highlight ">3 DAYS!</span></h2>
             </div>
@@ -270,7 +237,7 @@
 
 
 
-       <div class="col-md-12 col-xs-12 content-section pull-left">
+       <div id="content_video_section" class="col-md-12 col-xs-12 content-section pull-left">
             <div class="col-md-8 content-video-section" id="myBtn">
                 <div class="col-md-6 col-sm-6 col-xs-6">
                     <a href="#" id="video-1"><img src="images/image_one.png" class="thumbnail img-responsive"></a>
@@ -309,7 +276,7 @@
                   </div>
                 </div>
             </div> 
-              <div class="col-md-12 col-xs-12 pull-left stories-section">
+              <div id="stories_section" class="col-md-12 col-xs-12 pull-left stories-section">
                     <div class="text-center">
                     <h2 class="col-md-12 subtitle-dashboard"><span class="secondary-text-highlight">Your Stories</span>Client experiences </h2>
                     </div>
@@ -326,7 +293,7 @@
 
             <div class="divider col-md-12 col-xs-12 text-center"></div>
 
-            <div class="col-md-12 col-xs-12 feature-section">
+            <div id="feature_section" class="col-md-12 col-xs-12 feature-section">
                     <h3 class="text-center">As featured in</h3>
                     <div class="col-md-12 col-xs-12 client-image-section text-center">
                         <img src="images/client/techChrunch.png"/>
