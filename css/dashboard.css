@@ -292,20 +292,20 @@ h2 > .primary-text-highlight {
     bottom: 5%;
     left: 36%;
  }
-   .collapse-btn-expand{
+.collapse-btn-expand{
    cursor: pointer;
    }
-   .collapse-banner-content{
+.collapse-banner-content{
     background:#f6f7f9;
     margin: 10px 0;
     position: relative;
     z-index: 4;
    }
-   /* Side Navigation */
+/* Side Navigation */
 .navigation-tab{
     position: fixed;
-    top: 14%;
-    right: 0;
+    right: 10%;
+    top: 12%;
     z-index: 2;
 }
 .dashboard-toggle{
@@ -336,6 +336,7 @@ h2 > .primary-text-highlight {
 }
 .call-label{
     padding: 15px 10px;
+    font-weight: normal;
 }
 .login-dashboard-btn{
     padding: 9px 10px;
@@ -348,13 +349,13 @@ h2 > .primary-text-highlight {
     -moz-box-shadow: 0 2px 6px #999, inset 0 2px 3px #e3e3e3;
     -webkit-box-shadow: 0 2px 6px #999, inset 0 2px 3px #e3e3e3;
     box-shadow: 0 2px 6px #999, inset 0 2px 3px #e3e3e3;
+    padding: 0;
 }
 .navigation-tab li{
     display: block;
     font-size: 18px !important;
     cursor: pointer;
- /*   background-color: #e7e7e7;
-    border-bottom: 1px solid #f7f7f7;*/
+    padding: 6px 20px;
     text-align: center;
 }
 .dashboard-toggle{
@@ -393,9 +394,20 @@ h2 > .primary-text-highlight {
     .toggle-block{font-size: 15px;}
     .collapse-btn{right:1%;}
     .consult-section-block img{width:70%;}
+    .navigation-tab{
+        right: 7%;
+        top: 11%;
+    }
 }
 
 @media (max-width: 992px) {
+    .navigation-tab{
+        right: 7%;
+        top: 8%;
+    }
+    .dashboard-toggle{
+        padding:9px 0;
+    }
     .carousel-inner > .item > div > a > img{width:50%;}
     .collapse-btn{right:3%;}
     .block{width:18%;}
@@ -453,6 +465,29 @@ h2 > .primary-text-highlight {
     /* Side Navigation*/ 
     .navigation-tab{
         display: none;
+        right: 2%;
+        top: 25%;
+    }
+    .login-section{
+        float: right;
+    }
+    .dashboard-menu{
+        display: block;
+        top:10px;
+        background: none;
+        left:auto;
+    }
+  
+    .call-label{
+        display: none;
+    }
+    .login-dashboard-btn{
+        padding: 0;
+    }
+    .dashboard-toggle{
+        margin-right: 0;
+        margin-top: 0;
+        padding: 3px 10px;
     }
     /* Side Navigation*/
     .header > .container{
@@ -574,5 +609,14 @@ h2 > .primary-text-highlight {
         background-position: 57% center;
         background-repeat: no-repeat;
         background-size: 300% 100%;
+    }
+}
+@media (max-width: 410px){
+    .login-section{
+        padding:12px 0;
+    }
+    .navigation-tab{
+        right: 1%;
+        top: 14%;
     }
 }
