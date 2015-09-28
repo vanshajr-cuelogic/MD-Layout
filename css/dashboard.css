@@ -112,11 +112,10 @@ h2 > .primary-text-highlight {
     text-decoration: none;
     text-transform: uppercase;
 }
-
+.get-answer-wrapper{
+    text-align: center;padding: 15px;
+}
 .collapse-btn {
-    bottom: 1px;
-    position: absolute;
-    right: 8%;
     cursor: pointer;
 }
 .collapse-btn img {
@@ -276,7 +275,7 @@ h2 > .primary-text-highlight {
 .banner-label{
     border: 3px solid #fff;
     left: 15%;
-    padding: 18px 14px 50px;
+    padding:10px;
     position: relative;
     top: 15%;
     background: #f6f7f9;
@@ -287,11 +286,6 @@ h2 > .primary-text-highlight {
     top: 8%;
     z-index: 2;
 }
-.get-answer{
-    position: absolute;
-    bottom: 5%;
-    left: 36%;
- }
 .collapse-btn-expand{
    cursor: pointer;
    }
@@ -303,9 +297,9 @@ h2 > .primary-text-highlight {
    }
 /* Side Navigation */
 .navigation-tab{
-    position: fixed;
-    right: 10%;
-    top: 12%;
+    position: absolute;
+    right: 0;
+    top:80px;
     z-index: 2;
 }
 .dashboard-toggle{
@@ -392,24 +386,29 @@ h2 > .primary-text-highlight {
         padding:14% 0%;
     }
     .toggle-block{font-size: 15px;}
-    .collapse-btn{right:1%;}
+  /*  .collapse-btn{right:1%;}*/
     .consult-section-block img{width:70%;}
     .navigation-tab{
-        right: 7%;
-        top: 11%;
+        right: 1%;
     }
 }
 
 @media (max-width: 992px) {
-    .navigation-tab{
-        right: 7%;
-        top: 8%;
+    .climb-banner{
+     left:20%;
     }
+     .banner-label{
+        left: 5%;
+        top: 16%
+       }
+    .navigation-tab{
+        right: 10px;
+        }
     .dashboard-toggle{
         padding:9px 0;
     }
     .carousel-inner > .item > div > a > img{width:50%;}
-    .collapse-btn{right:3%;}
+    /*.collapse-btn{right:3%;}*/
     .block{width:18%;}
     .item.active > div:nth-child(4) {
         display: none !important;
@@ -443,30 +442,28 @@ h2 > .primary-text-highlight {
    .carousel-control.left, .carousel-control.right{
     padding-top: 16%;
    }
-   .banner-label{
-    left:1%;
-    top:20%;
-   }
-   .climb-banner{
-    left:15%;
-    top:12%;
-   }
    .best-doctor-label{
     right:1%;
    }
-/*   .get-answer{
-     left: 18%;
-     top: 40%;
-   }*/
 }
 
 
 @media (max-width: 767px) {
+     .climb-banner{
+     left:38%;
+    }
+     .banner-label{
+        left: 5%;
+        top: 16%
+       }
     /* Side Navigation*/ 
     .navigation-tab{
         display: none;
-        right: 2%;
-        top: 25%;
+        right: 2px;
+        top: 70px;
+    }
+    .navigation-tab li{
+        font-size: 14px !important;
     }
     .login-section{
         float: right;
@@ -573,9 +570,9 @@ h2 > .primary-text-highlight {
     .carousel{
          padding: 10px 25px 0;
     }
-    .collapse-btn{
+  /*  .collapse-btn{
         bottom:0%;
-    }
+    }*/
    .service-block span{
         padding: 15px;
     }
@@ -602,9 +599,6 @@ h2 > .primary-text-highlight {
     .best-doctor-label{
         display: none;
     }
-    .get-answer{
-        left:26%;
-     }
     .banner-img{
         background-position: 57% center;
         background-repeat: no-repeat;
@@ -612,11 +606,7 @@ h2 > .primary-text-highlight {
     }
 }
 @media (max-width: 410px){
-    .login-section{
-        padding:12px 0;
-    }
-    .navigation-tab{
-        right: 1%;
-        top: 14%;
+  .climb-banner{
+    left:32%;
     }
 }
