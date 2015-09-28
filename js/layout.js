@@ -221,7 +221,7 @@ function mobileMenu() {
     $(".navbar-toggle").on('click',function(){
         $('.mainmenu').slideToggle();
     });
-     $(".navbar-toggle1").on('click',function(){
+    $(".navbar-toggle1").on('click',function(){
         $('.cms-tab').slideToggle();
     });
     $(".dashboard-toggle").on('click',function(){

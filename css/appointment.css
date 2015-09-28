@@ -28,7 +28,7 @@ label{font-weight: normal!important;}
 	padding:10px;
 	background-color: #eee;
 }
-#myTab > li > a{
+/*#myTab > li > a{
 	background-color: #eee !important;
 	margin-left: 15px;
 	padding: 5px 30px;
@@ -39,10 +39,10 @@ label{font-weight: normal!important;}
 	margin:0;
 	padding:5px;
 	text-align:center;
-}
-#myTab > li.active > a{
+}*/
+/*#myTab > li.active > a{
  	background-color: #fff !important;
-}
+}*/
 .page-heading{
 	padding-bottom:22px;
 	border-bottom:1px solid #e7e7e7;
@@ -65,9 +65,9 @@ label{font-weight: normal!important;}
 	cursor: pointer;
 	text-decoration: none;
 }
-.panel-title.pull-right > a{
+/*.panel-title.pull-right > a{
 color: #00a1e0;
-}
+}*/
 #time-zone-wrap{
 	overflow: hidden;
 	clear: both;
@@ -177,7 +177,7 @@ color: #00a1e0;
 }
 
 .pending-appointment-list > .table-head > li{
-	background-color: #f7f7f7;
+	/*background-color: #f7f7f7;*/
 	padding: 10px;
 }
 #report-panel,#report-panel1{

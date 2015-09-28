@@ -1,6 +1,6 @@
 body {
   color: #333;
-  background-color: #fff;
+  background-color: #CEECF5;
 }
 
 .mainmenu li a img{
@@ -42,7 +42,7 @@ border: 1px solid #747f8d;
 }
 
 .theme-color-caret{
-    color: #FF705B;
+    color: #0080FF
 }
 
 .doctor-box-alignment:first-child{
@@ -61,11 +61,11 @@ color:#00a1e0;
 }
 
 .pageheader3{
-color:#3c3c3b;
+color:#fff;
 }
 
 .pageheader4{
-color:#3c3c3b;
+color:#fff;
 }
 
 .hrline{
@@ -73,21 +73,21 @@ color:#3c3c3b;
 }
 
 .theme-color{
-    color:#00a1e0;
+    color:#0080FF;
 }
 
 .btn-default,.btn-default:focus,.btn-default:hover,.btn-default:active{
   color: #fff;
-  background-color: #ff705b;
+  background-color: #333333;
 }
 
 .btn-primary,.btn-primary:focus,.btn-primary:hover,.btn-primary:active{
-    background-color: #ababab;
+    background-color: #ff705b;
     color:#fff;
 }
 
 .borderbox,.comments{
-    border:thin solid #e8e8e8;
+    border:thin solid #81BEF7;
 }
 
 .media-padding {
@@ -117,14 +117,16 @@ color:#3c3c3b;
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555;
-  background-color: #fff;
+  color: #fff;
+  background-color: #333333;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
+  text-align: center;
 }
 
 .nav-tabs > li > a:hover {
-  border-color: #eee #eee #ddd;
+    color: #fff;
+    background-color: #0080FF;
 }
 
 .light-border-bottom{
@@ -136,19 +138,33 @@ color:#3c3c3b;
 }
 
 ul.nav-tabs > li >a{
-  color:#3c3c3b;
-  background-color: #e7e7e7;
-    text-align: center;
-    font-size: 18px;
+color:#fff;
+background-color: #0080FF;
+text-align: center;
+font-size: 18px;
+}
+.panel-default > .panel-heading{
+    color: #fff;
+    background-color: #0080FF;
+    border:none;
+}
+a{
+  color:#0080FF;
+  cursor: pointer;
+}
+.table-head > li{
+  background: #0080FF;
+  color: #fff;
 }
 
 .tab-content{
-  border:solid 1px #e8e8e8;
+  border:solid 1px #81BEF7;
 }
 
 .tab-heading {
-background-color: #F7F7F7;
+background-color: #0080FF;
 color:#000;
+border-radius: 5px 5px 0 0;
 }
 
 .small-text-info{
