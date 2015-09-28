@@ -22,7 +22,11 @@
 .activation-header{
 	padding: 0;
 }
-
+.form-input{
+	float: left;
+	width: 48%;
+	padding: 5px;
+}
 .activation-header h3 span.logoimg{
 background:url('../images/login.png')no-repeat;
 width:50px;
@@ -58,7 +62,6 @@ display: inline-block;
 	width: 100%
 }
 .activation-form > .form-group{
-	width: 49%;
     display: inline-block;
     margin: 10px 0;
 }
