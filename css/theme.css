@@ -13,7 +13,7 @@ background-color:#ffffff;
 }
 
 .mainmenu li a span{
-    color:#aaafb0;
+    color:#999;
 }
 
 .mainmenu li a span.counter {
@@ -151,6 +151,11 @@ color:#000;
 
 .small-text-info{
     color:#777777;
+}
+.bottom-border{
+  border-bottom:1px solid #999;
+  clear: both;
+  margin: 25px 0;
 }
 
 .myhealth-docs li{

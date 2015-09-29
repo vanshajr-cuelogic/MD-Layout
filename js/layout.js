@@ -159,7 +159,9 @@ function toggleFn() {
     });
 
      $('.toggle-dropdown').each(function() {
+     
         $(this).find("a").click(function() {
+           $(".mainmenu").show();
             $('.has-sub').slideUp();
             $(this).removeClass('active');
             if (!$(this).next().is(":visible")) {
@@ -172,6 +174,22 @@ function toggleFn() {
             }
         });
     });
+
+      $('.admin-dropdown').each(function() {
+        $(this).find("a").click(function() {
+          $(".mainmenu").hide();
+            $('.has-sub').slideUp();
+            $(this).removeClass('active');
+            if (!$(this).next().is(":visible")) {
+                $(this).parent().find('.has-sub').slideDown();
+                $(this).addClass('active');
+
+            } else {
+                $(this).parent().find('.has-sub').slideUp();
+                $(this).removeClass('active');
+            }
+        });
+    }); 
     mouseUpFn();
 
     $('.toggle-handler').click(function() {
