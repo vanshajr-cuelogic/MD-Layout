@@ -113,17 +113,41 @@
               <h3 class="page-heading">Page-heading Class</h3>
          </div>
 
-          <div class="block-div">
-            <label class="title">Tabulate Functionality</label>
-             <ul class="nav nav-tabs tab-layout" role="tablist">
-                <li role="presentation" class="active"><a href="#inbox_current" aria-controls="inbox_current" role="tab" data-toggle="tab">Current</a></li>
-                <li role="presentation"><a href="#inbox_archived" aria-controls="inbox_archived" role="tab" data-toggle="tab">Archived</a></li>
-                <li role="presentation"><a href="#system_test" aria-controls="system_test" role="tab" data-toggle="tab">System Test</a></li>
-              </ul>
-              <div id="inbox_current" class="">inbox_current</div>
-              <div id="inbox_archived" class="">inbox_archived</div>
-              <div id="system_test" class="">system_test</div>
+         <div class="block-div">
+            <label class="title">Page Heading with Band</label>
+              <h3 class="band-heading">Page-heading Class</h3>
          </div>
+
+          <div class="block-div">
+            <label class="title">Even - Tabulate Functionality</label>
+             <div class="block-div">
+                 <ul class="nav nav-tabs tab-layout" role="tablist">
+                    <li role="presentation" class="active"><a href="#inbox_current" aria-controls="inbox_current" role="tab" data-toggle="tab">Tab-1</a></li>
+                    <li role="presentation"><a href="#inbox_archived" aria-controls="inbox_archived" role="tab" data-toggle="tab">Tab-2</a></li>
+                    <li role="presentation"><a href="#system_test" aria-controls="system_test" role="tab" data-toggle="tab">Tab-3</a></li>
+                    <li role="presentation"><a href="#system_test" aria-controls="system_test" role="tab" data-toggle="tab">Tab-4</a></li>
+                  </ul>
+                    <div class="tab-content" id="inbox_current">
+                         Element -1
+                    </div>
+              </div>
+         </div>
+
+        <div class="block-div">
+        <label class="title">Odd - Tabulate Functionality</label>
+         <div class="block-div">
+             <ul class="nav nav-tabs tab-layout" role="tablist">
+                <li role="presentation" class="active"><a href="#inbox_current" aria-controls="inbox_current" role="tab" data-toggle="tab">Tab-1</a></li>
+                    <li role="presentation"><a href="#inbox_archived" aria-controls="inbox_archived" role="tab" data-toggle="tab">Tab-2</a></li>
+                    <li role="presentation"><a href="#system_test" aria-controls="system_test" role="tab" data-toggle="tab">Tab-3</a></li>
+                    <li role="presentation"><a href="#system_test" aria-controls="system_test" role="tab" data-toggle="tab">Tab-4</a></li>
+                    <li class="last-element" role="presentation"><a href="#system_test" aria-controls="system_test" role="tab" data-toggle="tab">Tab-5</a></li>
+              </ul>
+                <div class="tab-content" id="inbox_current">
+                     Element -2
+                </div>
+          </div>
+        </div>
 
           <div class="block-div">
             <label class="title">ul / li Semantics</label>
@@ -136,7 +160,104 @@
              </ul>  
          </div>
 
-       </div>
+          <div class="block-div">
+            <label class="title">Star Rating</label>
+                <ul class="rating">
+                  <li class="normal_star"></li>
+                  <li class="half_rated_star"></li>
+                  <li class="rated_star"></li>
+                </ul>
+         </div>
+
+          <div class="block-div">
+            <label class="title">Video Block</label>
+             <div class="video-block">
+                <div>
+                    <span href="#"><img src="images/image_one.png" class="thumbnail img-responsive"></span>
+                </div>
+                <div>
+                    <span href="#"><img src="images/image_one.png" class="thumbnail img-responsive"></span>
+                </div>
+            </div>
+          </div>
+
+           <div class="block-div">
+            <label class="title">White Popup - White Background</label>
+             <div>
+                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal-white">White Modal</button>
+                
+                 <!-- Modal -->
+                    <div id="myModal-white" class="modal fade" role="dialog">
+                      <div class="modal-dialog white-popup">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="page-heading">Modal Header</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Some text in the modal.</p>
+                             <ul class="rating">
+                              <li class="normal_star"></li>
+                              <li class="half_rated_star"></li>
+                              <li class="rated_star"></li>
+                            </ul>
+                          </div>
+                           <div class="modal-footer">
+                                <label>Modal Footer</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+             </div>
+
+            <div class="block-div">
+            <label class="title">Black Popup - White Background</label>
+             <div>
+                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal-black">Black Modal</button>
+                
+                 <!-- Modal -->
+                    <div id="myModal-black" class="black-popup modal fade" role="dialog">
+                      <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="page-heading">Modal Header</h4>
+                          </div>
+                          <div class="modal-body">
+                            <p>Some text in the modal.</p>
+                             <ul class="rating">
+                              <li class="normal_star"></li>
+                              <li class="half_rated_star"></li>
+                              <li class="rated_star"></li>
+                            </ul>
+                          </div>
+                           <div class="modal-footer">
+                            <label>Modal Footer</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+             </div>
+
+               <div class="block-div">
+                  <label class="title">Button Semantics</label>
+                    <div>
+                        <button class="btn btn-default" type="button">btn-default</button> 
+                        <button class="btn btn-default" disabled="disabled" type="button">btn-default.disabled</button> 
+                        <button class="btn btn-primary" type="button" >btn-primary</button>
+                    </div>
+               </div>
+
+
+
+
+       </div> <!-- End of Layout Design Semanitic-->
   
 
     <div class="clearfix">&nbsp;</div>
@@ -152,10 +273,9 @@
                                 <li><a href="#">Press</a></li>
                                 <li><a href="#">Our Leadership</a></li>
                             </ul>
-                               <ul class="footerlist list-inline col-md-4 col-sm-6 col-xs-6">
+                               <ul class="footerlist list-inline col-md-5 col-sm-6 col-xs-6">
                                 <li><a href="#">Contact</a></li>
-                                <li><a href="#">Terms and Privacy</a></li>
-                                <li><a href="#">Policy</a></li>
+                                <li><a href="#">Terms and Privacy Policy</a></li>
                             </ul>
                         </div>
                         <!--end footer list-->
@@ -163,11 +283,11 @@
                         <div class="display-inline-block copyright pull-right">
                             <div class="social-link-section">
                                 <ul>
-                                    <li><a><img src="#"></a></li>
-                                    <li><a><img src="#"></a></li>
-                                    <li><a><img src="#"></a></li>
-                                    <li><a><img src="#"></a></li>
-                                    <li><a><img src="#"></a></li>
+                                    <li class="twitter"></li>
+                                    <li class="facebook"></li>
+                                    <li class="mail"></li>
+                                    <li class="linked-in"></li>
+                                    <li class="google"></li>
                                 </ul>
                             </div>
                             &copy; 2011 2nd.MD, All Rights Reserved
