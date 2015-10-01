@@ -10,8 +10,10 @@
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/reset.css" rel="stylesheet">
         <link href="css/global.css" rel="stylesheet">
+       
         <link href="css/account.css" rel="stylesheet">
         <link href="css/theme.css" rel="stylesheet">
+       <!--  <link href="css/index.css" rel="stylesheet"> -->
         
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,7 +24,7 @@
     </head>
     <body>
         <!--header part-->
-        <div class="container-fluid header">
+         <div class="container-fluid header">
             <div class="container">
                 <!--logo-->
                 <div class="logo pull-left">
@@ -33,32 +35,27 @@
                 <div class="pull-right">
                     <!--start of main menu-->
 
+                    <div class="pull-left admin-menu">
+                        <ul>
+                             <li class="admin-dropdown">
+                                <a href="#">
+                                    <img src="images/dr.-smoker.png" class="img-circle" /><i class="caret"></i>
+                                </a>
+                                <ul class="has-sub display-none small-menu admin-sub-menu">
+                                    <li><a href="#">Reports</a></li>
+                                    <li><a href="#">Appointments</a></li>
+                                    <li><a href="#">Corporate</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
                     <button class="navbar-toggle">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-
-                    <!--show items for small deivces-->
-                    <div class="small-dev-menu">
-                    
-                            <div class="toggle-dropdown">
-                                <a href="#"><img src="images/dr.-smoker.png" class="img-circle" />
-                                <p>
-                                  <i class="caret theme-color-caret"></i>
-                                </p>
-                                </a>
-                                <ul class="has-sub display-none small-menu">
-                                    <li><a href="#">Reports</a></li>
-                                    <li><a href="#">Appointments</a></li>
-                                    <li><a href="#">Corporate</a></li>
-                                </ul>
-                            </div>
-
-                    </div>
-                    <!--end show for small devices-->
-
                     <ul class="mainmenu list-inline">
                             <li>
                                 <a href="#"><img src="images/my-appointments.png" class="img-circle" /><span class="span_appointments">Appointments</span> <span class="counter">2</span></a>
@@ -69,10 +66,10 @@
                             <li>
                                 <a href="#"><img src="images/my-doctors.png" class="img-circle" /><span>My Doctors</span></a>
                             </li>
-                            <li class="toggle-dropdown large-dev-menu">
+                            <li class="toggle-dropdown">
                                 <a href="#"><img src="images/dr.-smoker.png" class="img-circle" />
                                 <p>
-                                    <span>Dr. Smoker</span><i class="caret theme-color-caret"></i>
+                                    <span>Dr. Smoker</span><i class="caret"></i>
                                 </p>
                                 </a>
                                 <ul class="has-sub display-none small-menu">
@@ -81,7 +78,7 @@
                                     <li><a href="#">Corporate</a></li>
                                 </ul>
                             </li>
-                            <!-- <li class="toggle-dropdown large-dev-menu">
+                            <li class="toggle-dropdown">
                                 <a href="#">
                                     <img src="images/admin.png" class="img-circle" />
                                     <p>
@@ -107,7 +104,7 @@
                                             <a href="#" class="theme-color2">Logout</a>
                                         </li>
                                     </ul>
-                            </li> -->
+                            </li>
                         </ul>
                             <!--end of main menu-->
                     </div>
@@ -123,7 +120,7 @@
                     <div class="row">
 
                         <div class="col-md-12">
-                            <h2 class="pageheader1">Account</h2>
+                            <h2 class="page-heading">Account</h2>
                         </div>
                     </div>
                     <!--end of row-->    
@@ -132,10 +129,10 @@
                         <div class="col-md-12">
 
                               <!-- Nav tabs -->
-                              <ul class="nav nav-tabs myhealth-tabs" role="tablist">
+                              <ul class="nav nav-tabs tab-layout" role="tablist">
                                 <li role="presentation" class="active"><a href="#general" aria-controls="general" role="tab" data-toggle="tab">General</a></li>
                                 <li role="presentation"><a href="#notifications" aria-controls="notifications" role="tab" data-toggle="tab">Notifications</a></li>
-                                <li role="presentation"><a href="#system-test" aria-controls="system-test" role="tab" data-toggle="tab">System Test</a></li>
+                                <li role="presentation" class="last-element"><a href="#system-test" aria-controls="system-test" role="tab" data-toggle="tab">System Test</a></li>
                               </ul>
 
                               <!-- Tab panes -->
@@ -150,7 +147,7 @@
                                     
                                     
                                     <div class="tab-heading">
-                                        <h4 class="pageheader4">Basic Info</h4>
+                                        <h4 class="band-heading">Basic Info</h4>
                                     </div>
 
                                 <div class="row borderbox no-padding margin-side8">    
@@ -599,25 +596,38 @@
 
                 <div class="clearfix">&nbsp;</div>
                 <!--footer-->
-                <div class="container-fluid footer">
+                 <div class="container-fluid footer">
                     <div class="container">
                         <!--footer list-->
-                        <div class="display-inline-block">
-                            <ul class="footerlist list-inline pull-left">
+                        <div class="display-inline-block col-md-6 col-sm-7 col-xs-12">
+                            <ul class="footerlist list-inline col-md-4 col-sm-6 col-xs-5">
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Press</a></li>
                                 <li><a href="#">Our Leadership</a></li>
+                            </ul>
+                               <ul class="footerlist list-inline col-md-5 col-sm-6 col-xs-7">
                                 <li><a href="#">Contact</a></li>
-                                <li><a href="#">Terms and Privacy</a></li>
-                                <li><a href="#">Policy</a></li>
+                                <li><a href="#">Terms and Privacy Policy</a></li>
                             </ul>
                         </div>
                         <!--end footer list-->
+                        <div class="bottom-border seperation"></div>
                         <div class="display-inline-block copyright pull-right">
+                            <div class="social-link-section">
+                                <ul>
+                                    <li class="twitter"></li>
+                                    <li class="facebook"></li>
+                                    <li class="mail"></li>
+                                    <li class="linked-in"></li>
+                                    <li class="google"></li>
+                                </ul>
+                            </div>
                             &copy; 2011 2nd.MD, All Rights Reserved
                         </div>
                     </div>
                 </div>
+
+
                 <!--end footer-->
                 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
                 <script src="js/jquery-1.11.3.min.js"></script>
